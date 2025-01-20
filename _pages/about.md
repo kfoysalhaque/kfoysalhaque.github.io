@@ -15,8 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am **Khandaker Foysal Haque**, a Ph.D. candidate in the **Department of Electrical and Computer Engineering at Northeastern University**, affiliated with the pioneering [Mentis Lab](https://mentis.info/). My research focuses on advancing the frontiers of **intelligent wireless networking**, **integrated sensing and communication (ISAC)**, and **AI/ML-driven wireless systems**, with a particular emphasis on **MU-MIMO systems** and **edge computing**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Under the mentorship of **Prof. Francesco Restuccia**, I strive to develop innovative solutions to critical challenges in next-generation wireless networks, leveraging cutting-edge techniques in machine learning, signal processing, and network optimization. My work has been recognized with the **Best Paper Award** at **IEEE iSES 2020** and includes publications in prestigious venues such as **IEEE Communication Letters**, **Computer Networks**, **INFOCOM**, **MobiCom**, and others.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
