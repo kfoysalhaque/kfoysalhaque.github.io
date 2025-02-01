@@ -396,13 +396,11 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+    },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-our-work-with-the-army-research-lab-has-been-accepted-at-wcnc-tada",
+          title: 'Our work with the Army Research Lab has been accepted at WCNC :tada:...',
           description: "",
           section: "News",},{id: "news-our-paper-beamsense-has-been-accepted-for-publication-in-computer-networks-if-4-4",
           title: 'Our paper BeamSense has been accepted for publication in Computer Networks (IF: 4.4)...',
