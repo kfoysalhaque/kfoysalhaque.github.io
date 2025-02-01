@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-We presented our mmWave MU-MIMO testbed, *m3MIMO*, at the *MobiCom Workshop*! 🚀
+We presented our mmWave MU-MIMO testbed, *m3MIMO*, at the **MobiCom Workshop**! 🚀
