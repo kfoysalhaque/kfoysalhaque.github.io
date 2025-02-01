@@ -396,7 +396,10 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-we-presented-our-mmwave-mu-mimo-testbed-m3mimo-at-the-mobicom-workshop",
+    },{id: "news-our-paper-on-feedback-quantization-in-802-11-mimo-wi-fi-is-accepted-in-ieee-wireless-communications-letters-if-4-6-rocket-fire",
+          title: 'Our paper on feedback quantization in 802.11 MIMO Wi-Fi is accepted in IEEE...',
+          description: "",
+          section: "News",},{id: "news-we-presented-our-mmwave-mu-mimo-testbed-m3mimo-at-the-mobicom-workshop",
           title: 'We presented our mmWave MU-MIMO testbed, m3MIMO, at the MobiCom Workshop! 🚀',
           description: "",
           section: "News",},{id: "news-our-paper-phydnns-has-been-accepted-at-infocom-confetti-ball-fire",
