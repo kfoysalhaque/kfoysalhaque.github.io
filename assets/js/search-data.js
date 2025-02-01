@@ -396,8 +396,8 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+    },{id: "news-our-paper-phydnns-has-been-accepted-at-infocom-confetti-ball-fire",
+          title: 'Our paper PhyDNNs has been accepted at INFOCOM! :confetti_ball: :fire:',
           description: "",
           section: "News",},{id: "news-our-work-with-the-army-research-lab-has-been-accepted-at-wcnc-tada",
           title: 'Our work with the Army Research Lab has been accepted at WCNC :tada:...',
