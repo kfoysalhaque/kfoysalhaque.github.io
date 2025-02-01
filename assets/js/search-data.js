@@ -396,7 +396,10 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-our-paper-phydnns-has-been-accepted-at-infocom-confetti-ball-fire",
+    },{id: "news-we-presented-our-mmwave-mu-mimo-testbed-m3mimo-at-the-mobicom-workshop",
+          title: 'We presented our mmWave MU-MIMO testbed, m3MIMO, at the MobiCom Workshop! 🚀',
+          description: "",
+          section: "News",},{id: "news-our-paper-phydnns-has-been-accepted-at-infocom-confetti-ball-fire",
           title: 'Our paper PhyDNNs has been accepted at INFOCOM! :confetti_ball: :fire:',
           description: "",
           section: "News",},{id: "news-our-work-with-the-army-research-lab-has-been-accepted-at-wcnc-tada",
