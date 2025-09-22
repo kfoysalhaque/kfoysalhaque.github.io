@@ -1,38 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-
 @inproceedings{meneghello2025radio,
   abstract={In this paper, we present DeepCSIv2, a data-driven radio fingerprinting (RFP) algorithm to characterize Wi-Fi devices acting as stations (STAs) at the physical layer. Our approach relies on STA-specific hardware impairments extracted from the multiple-input, multiple-output (MIMO) channel state information (CSI) feedback transmitted unencrypted by the STAs to Wi-Fi access points (APs) to establish MIMO transmissions. Recent work showed that such feedback can be effectively used to fingerprint devices acting as APs. In this work, we demonstrate that the same control information can be leveraged to obtain relevant features describing the STAs. Our intuition is that even tiny STA-specific hardware characteristics introduce detectable impairments in the channel estimated by the STA, and percolate in the CSI feedback – consisting of the compressed and quantized channel estimate. DeepCSIv2 is based on a neural network architecture that automatically extracts the STA’s radio fingerprint from the feedback captured over the air and identifies the device. We evaluated DeepCSIv2 through an extensive data collection campaign using 18 commercial IEEE 802.11ax network interface cards (NICs) of the same type from the same vendor. We considered different experiment configurations, changing the propagation environment and the operational bandwidth. The results show that DeepCSIv2 reaches an accuracy higher than 96% in identifying the 18 NICs in our dataset. We will share the dataset and RFP code with the community for reproducibility.},
   abbr={Conference},
@@ -41,8 +9,125 @@
   booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)},
   pages={1--6},
   year={2025},
-  selected={true},
+  pdf={example_pdf.pdf},
   code={https://github.com/kfoysalhaque/BFA-Sense},
   html={https://ieeexplore.ieee.org/abstract/document/11152893},
+  organization={IEEE},
+  selected={true}
+}
+
+%  abstract={},
+%  abbr={},
+%  pdf={},
+%  code={},
+%  html={},
+%  selected={},
+
+@inproceedings{abdi2025phydnns,
+  title={PhyDNNs: Bringing Deep Neural Networks to the Physical Layer},
+  author={Abdi, Mohammad and Haque, Khandaker Foysal and Meneghello, Francesca and Ashdown, Jonathan and Restuccia, Francesco},
+  abstract={Emerging applications require mobile devices to continuously execute complex deep neural networks (DNNs). While mobile edge computing (MEC) may reduce the computation burden of mobile devices, it exhibits excessive latency as it relies on encapsulating and decapsulating frames through the network protocol stack. To address this issue, we propose PhyDNNs, an approach where DNNs are modified to operate directly at the physical layer (PHY), thus significantly decreasing latency, energy consumption, and network overhead. Conversely from recent work in Joint Source and Channel Coding (JSCC), PhyDNNs adapt already trained DNNs to work at the PHY. To this end, we developed a novel information-theoretical framework to fine-tune PhyDNNs based on the trade-off between commu-nication efficiency and task performance. We have prototyped PhyDNNs with an experimental testbed using a Jetson Orin Nano as the mobile device and two USRP software-defined radios (SDRs) for wireless communication. We evaluated PhyDNNs performance considering various channel conditions, DNN models, and datasets. We also tested PhyDNNs on the Colosseum net-work emulator considering two different propagation scenarios. Experimental results show that PhyDNNs can reduce the end-to-end inference latency, amount of transmitted data, and power consumption by up to 48×, 1385×, and 13 × while keeping the accuracy within 7 % of the state-of-the-art approaches. Moreover, we show that PhyDNNs experience 4.3 times less latency than the most recent JSCC method while incurring in only 1.79% performance loss. For replicability, we shared the source code for the PhyDNNs implementation.},
+  abbr={Conference},
+  pdf={PhyDNNs.pdf},
+  code={https://github.com/AbdiMohammad/PhyDistInf},
+  html={https://doi.org/10.1109/INFOCOM55648.2025.11044671},
+  selected={},
+  booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications},
+  pages={1--10},
+  year={2025},
   organization={IEEE}
+}
+
+@inproceedings{haque2025deer,
+  title={DEER: Simultaneous Multi-Modal Decentralized Energy Efficient Covert Routing},
+  author={Haque, Khandaker Foysal and Kong, Justin and Moore, Terrence J and Restuccia, Francesco and Dagefu, Fikadu T},
+  abstract={A fundamental challenge in covert routing is that meeting both covertness and throughput requirements often leads to increased transmit power, which can significantly elevate the overall energy consumption of the network. Therefore, it is important to achieve higher throughput and better energy efficiency while maintaining the required covertness. To this end, we propose a novel simultaneous multi-modal Decentralized Energy- Efficient covert Routing approach - DEER for a multi-hop heterogeneous network (HetNet). Unlike the prevailing single-modal approaches, DEER leverages the diversity of the available wireless communication technologies for simultaneous multi-modal routing. DEER aims to minimize the end-to-end total transmit power of the whole route in a decentralized fashion while maintaining the constraints on required throughput and covertness. DEER stems into two main steps: node-level optimization followed by network-level optimization using the proposed custom-tailored Dijkstra's based link state routing protocol to meet the constraints while minimizing the end-to-end total transmit power. We demonstrate by numerical analysis that DEER improves the energy efficiency by 23.5x and 2.9x times in comparison to the baseline single-modal and naive simultaneous multimodal approaches respectively.},
+  abbr={Conference},
+  pdf={DEER.pdf},
+  html={https://doi.org/10.1109/WCNC61545.2025.10978544},
+  selected={},
+  booktitle={2025 IEEE Wireless Communications and Networking Conference (WCNC)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE},
+  selected={true}
+}
+
+
+@article{haque100decor,
+  title={DECOR: Multi-Modal Decentralized Cluster-based Energy Efficient Covert Routing in HetNets},
+  author={Haque, Khandaker Foysal and Kong, Justin H and Moore, Terrence J and Chan, Kevin and Restuccia, Francesco and Dagefu, Fikadu T},
+  abstract={State-of-the-art covert routing in heterogeneous network (HetNet) focuses on balancing covertness and throughput, but often overlooks explicit energy optimization. While
+  covert communication inherently limits transmit power, meeting throughput demands without coordinated design can still
+  lead to high energy consumption. In contrast, our approach
+  jointly considers covertness, throughput, and energy efficiency,
+  addressing all three objectives simultaneously. To this end, we
+  propose DECOR, a Decentralized Energy-efficient COvert Routing
+  framework that jointly optimizes covertness, throughput, and
+  energy efficiency. Unlike traditional methods that use a single
+  wireless technology, DECOR leverages the diversity of available
+  wireless communication technologies in HetNet to enable simultaneous multi-modal routing. The core idea behind DECOR
+  is that optimal simultaneous utilization of multiple modalities
+  improves throughput and overall energy efficiency. It minimizes
+  the end-to-end energy consumption while satisfying stringent
+  constraints on throughput and covertness through two core steps:
+  (1) link-level optimization using sequential least squares programming (SLSQP), and (2) network-level optimization through
+  a custom cluster-based routing strategy. DECOR introduces a
+  novel clustering-based strategy that aggregates intra-cluster link
+  information and delegates routing decisions to cluster heads,
+  significantly reducing control overhead and enabling scalable,
+  energy-efficient covert communication. Extensive numerical analysis demonstrates that DECOR significantly outperforms existing
+  approaches in terms of energy-efficiency and data overhead.},
+  abbr={Preprint},
+  pdf={DECOR.pdf},
+  html={https://mentis.info/wp-content/uploads/2025/06/DECOR_TIFS_2025.pdf},
+  selected={false},
+  journal={Preprint},
+  year={2025}
+}
+
+@article{haque2025beamsense,
+  title={Beamsense: Rethinking wireless sensing with mu-mimo wi-fi beamforming feedback},
+  author={Haque, Khandaker Foysal and Zhang, Milin and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={In this paper, we propose BeamSense, a completely novel approach to implement standard-compliant Wi-Fi sensing applications. Existing work leverages the manual extraction of the uncompressed channel state information (CSI) from Wi-Fi chips, which is not supported by the 802.11 standards and hence requires the usage of specialized equipment. On the contrary, BeamSense leverages the standard-compliant compressed beamforming feedback information (BFI) (beamforming feedback angles (BFAs)) to characterize the propagation environment. Conversely from the uncompressed CSI, the compressed BFAs (i) can be recorded without any firmware modification, and (ii) simultaneously captures the channels between the access point and all the stations, thus providing much better sensitivity. BeamSense features a novel cross-domain few-shot learning (FSL) algorithm for human activity recognition to handle unseen environments and subjects with a few additional data samples. We evaluate BeamSense through an extensive data collection campaign with three subjects performing twenty different activities in three different environments. We show that our BFAs-based approach achieves about 10% more accuracy when compared to CSI-based prior work, while our FSL strategy improves accuracy by up to 30% when compared with state-of-the-art cross-domain algorithms. Additionally, to demonstrate its versatility, we apply BeamSense to another smart home application – gesture recognition – achieving over 98% accuracy across various orientations and subjects. We share the collected datasets and BeamSense implementation code for reproducibility – https://github.com/kfoysalhaque/BeamSense.},
+  abbr={Journal},
+  pdf={BeamSense.pdf},
+  code={https://github.com/kfoysalhaque/BeamSense},
+  html={https://doi.org/10.1016/j.comnet.2024.111020},
+  selected={true},
+  journal={Computer Networks},
+  volume={258},
+  pages={111020},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{contreras2025soar,
+  title={SOAR: Semantic Multi-User MIMO Communications for Reliable Wireless Edge Computing},
+  author={Contreras, Sharon LG and Khandaker, Foysal Haque and Restuccia, Francesco and Levorato, Marco},
+  abstract={Ensuring reliability in Mobile Edge Computing Systems (MECS) is challenging due to wireless channel fluctuations, which affect packet delivery rate and real-time task performance. Existing methods, such as packet replication strategies and deep neural network (DNN) splitting, often lack task-specific adaptability, oversimplifying the effects of channel dynamics in its performance. To address this issues, we propose Semantic Offloading through Reliability (SOAR), a task-oriented multi-user MIMO framework for wireless edge computing executing vision tasks, e.g. object detection and image classification. SOAR pipeline uses distributional deep reinforcement learning (DDRL) agents with a multi-branched context-aware neural network. Two neural gates analyze onboard features to identify the context and contextual features, enabling a DDRL agent to optimize resource usage and task-specific packet-loss objectives. We evaluated SOAR in real-world vehicular system under line-of-sight (LoS) and non-line-of-sight (NLoS) propagation scenarios, SOAR reduces resource utilization by 35−40% compared to fixed antenna configuration benchmarks.},
+  abbr={Conference},
+  pdf={SOAR.pdf},
+  code={https://github.com/Restuccia-Group/SOAR},
+  html={https://doi.org/10.1109/DCOSS-IoT65416.2025.00014},
+  selected={false},
+  booktitle={2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)},
+  pages={35--42},
+  year={2025},
+  organization={IEEE}
+}
+
+@article{haque2025scope,
+  title={SCOPE: Cooperative Integrated Communications and Sensing for Material Classification at Sub-Terahertz Frequencies},
+  author={Haque, Khandaker Foysal and Cantos-Roman, Xavier and Meneghello, Francesca and Jornet, Josep Miquel and Restuccia, Francesco},
+  abstract={In this letter, we propose SCOPE—a novel, entropy-weighted ensembling approach for material classification at sub-Terahertz (THz) frequencies. Unlike existing methods that primarily use dedicated radars, SCOPE builds upon an integrated communication and sensing system and leverages information from both penetrating and reflected signals to enhance spatial resolution and detection accuracy across environments. We adopted spatial variability augmentation (SVA) to address the challenge of generalization across varying transmission distances and antenna gains. While most prior works are limited to radar systems or simulations, SCOPE is implemented and validated in a real sub-THz system working with a 10 GHz bandwidth. Our assessments across different sensing distances, antenna gains, and channel conditions demonstrate the efficacy of SCOPE, which reaches up to 99% accuracy in detecting five materials—glass, wood, metal, air, and plastic—outperforming existing techniques. To facilitate reproducibility, our dataset and code are available at: https://github.com/kfoysalhaque/SCOPE.},
+  abbr={Letter},
+  pdf={SCOPE.pdf},
+  code={https://github.com/kfoysalhaque/SCOPE},
+  html={https://doi.org/10.1109/LWC.2025.3576010},
+  selected={true},
+  journal={IEEE Wireless Communications Letters},
+  year={2025},
+  publisher={IEEE}
 }
