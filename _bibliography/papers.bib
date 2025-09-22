@@ -13,15 +13,15 @@
   code={https://github.com/kfoysalhaque/BFA-Sense},
   html={https://ieeexplore.ieee.org/abstract/document/11152893},
   organization={IEEE},
-  selected={true}
+  selected={false}
 }
 
-%  abstract={},
-%  abbr={},
-%  pdf={},
-%  code={},
-%  html={},
-%  selected={},
+% abstract={},
+% abbr={},
+% pdf={},
+% code={},
+% html={},
+% selected={},
 
 @inproceedings{abdi2025phydnns,
   title={PhyDNNs: Bringing Deep Neural Networks to the Physical Layer},
@@ -31,7 +31,7 @@
   pdf={PhyDNNs.pdf},
   code={https://github.com/AbdiMohammad/PhyDistInf},
   html={https://doi.org/10.1109/INFOCOM55648.2025.11044671},
-  selected={},
+  selected={true},
   booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications},
   pages={1--10},
   year={2025},
@@ -45,7 +45,7 @@
   abbr={Conference},
   pdf={DEER.pdf},
   html={https://doi.org/10.1109/WCNC61545.2025.10978544},
-  selected={},
+  selected={true},
   booktitle={2025 IEEE Wireless Communications and Networking Conference (WCNC)},
   pages={1--6},
   year={2025},
@@ -111,7 +111,7 @@
   pdf={SOAR.pdf},
   code={https://github.com/Restuccia-Group/SOAR},
   html={https://doi.org/10.1109/DCOSS-IoT65416.2025.00014},
-  selected={false},
+  selected={true},
   booktitle={2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)},
   pages={35--42},
   year={2025},
@@ -130,4 +130,123 @@
   journal={IEEE Wireless Communications Letters},
   year={2025},
   publisher={IEEE}
+}
+
+@inproceedings{haque2025magic,
+  title={MAGIC: Meta-Learning Adaptive Gesture Recognition with mmWave MIMO CSI},
+  author={Haque, Khandaker Foysal and Rumman, KM and Elyasi, Arman and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={In this paper, we present MAGIC, a novel approach to gesture recognition utilizing mmWave multiple-input multiple-output (MIMO) Channel State Information (CSI). Unlike existing mmWave gesture recognition methods that often rely on radar signals, MAGIC leverages CSI extracted from mmWave MIMO integrated sensing and communication (ISAC) systems. While advanced radar systems, such as those operating in frequency-modulated continuous wave (FMCW) mode, can achieve high frequency and spatial resolution, they typically require dedicated sensing infrastructure, which increases system complexity. In contrast, MAGIC utilizes high-granular CSI from orthogonal frequency-division multiplexing (OFDM) systems, enabling fine spatial, temporal, and frequency-domain information for robust gesture recognition. This eliminates the need for dedicated radar transceivers, simplifying the system and reducing transmission overhead. MAGIC employs a learning-based architecture, integrating a temporal convolutional network (TCN) to classify gestures by capturing long-range temporal dependencies. To address the critical challenge of domain adaptation in gesture recognition, we propose adaptive temporal embedding network (ATEN), a meta-learning framework that combines the temporal modeling capabilities of TCN with task-specific adaptation mechanisms. We evaluateMAGIC through a comprehensive data collection campaign involving two subjects performing 10 micro gestures across three different environments, with synchronized video streams providing the ground truth. The proposed system achieves a baseline accuracy of 99.24% using TCN. The system continues to perform well – achieving up to 98.82% accuracy – when adapting to new domains using ATEN, outperforming other state-of-the-art domain adaptation methods by 14% on average.},
+  abbr={Conference},
+  pdf={MAGIC.pdf},
+  html={https://doi.org/10.1109/WoWMoM65615.2025.00030},
+  selected={true},
+  booktitle={2025 IEEE 26th International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)},
+  pages={131--140},
+  year={2025},
+  organization={IEEE}
+}
+
+@inproceedings{haque2024m3mimo,
+  title={m3MIMO: An 8$\times$ 8 mmWave Multi-User MIMO Testbed for Wireless Research},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Rumman, KM and Restuccia, Francesco},
+  abstract={In this paper, we present m3MIMO a mmWave fully-digital multi-user multi-input multi-output (MU-MIMO) testbed for advanced wireless research. m3MIMO operates in the 57-64 GHz frequency range and supports up to 1 GHz of bandwidth enabling large data multiplexing in the frequency domain through orthogonal frequency-division multiplexing (OFDM). The testbed features three custom-designed Zynq UltraScale+ RFSoC-based Software Defined Radios (SDRs) empowered with the Pi-Radio fully digital transceivers. Two of these SDRs support eight transmit and receive streams each (8 × 8 MIMO), while the third SDR supports up to four channels. m3MIMO supports three different communication modes: (i) point-to-point (P2P) transmissions; (ii) single-user multi-input multi-output (SU-MIMO), where multiple streams are transmitted to a single end-device; and (iii) MU-MIMO, where two devices are simultaneously served by a single transmitter. To showcase the m3MIMO's versatility, we present two research use cases: tracking-based beamforming and mmWave-based sensing. We will open-source the m3MIMO code along with the relevant use-case datasets, facilitating further analysis},
+  abbr={Conference},
+  pdf={m3MIMO.pdf},
+  code={https://github.com/kfoysalhaque/m3MIMO},
+  html={https://doi.org/10.1145/3636534.3697321},
+  selected={true},
+  booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+  pages={1922--1929},
+  year={2024}
+}
+
+@article{zabin2024predxgbr,
+  title={PredXGBR: A Machine Learning Framework for Short-Term Electrical Load Prediction},
+  author={Zabin, Rifat and Haque, Khandaker Foysal and Abdelgawad, Ahmed},
+  abstract={The growing demand for consumer-end electrical load is driving the need for smarter management of power sector utilities. In today’s technologically advanced society, efficient energy usage is critical, leaving no room for waste. To prevent both electricity shortage and wastage, electrical load forecasting becomes the most convenient way out. However, the conventional and probabilistic methods are less adaptive to the acute, micro, and unusual changes in the demand trend. With the recent development of artificial intelligence (AI), machine learning (ML) has become the most popular choice due to its higher accuracy based on time-, demand-, and trend-based feature extractions. Thus, we propose an Extreme Gradient Boosting (XGBoost) regression-based model—PredXGBR-1, which employs short-term lag features to predict hourly load demand. The novelty of PredXGBR-1 lies in its focus on short-term lag autocorrelations to enhance adaptability to micro-trends and demand fluctuations. Validation across five datasets, representing electrical load in the eastern and western USA over a 20-year period, shows that PredXGBR-1 outperforms a long-term feature-based XGBoost model, PredXGBR-2, and state-of-the-art recurrent neural network (RNN) and long short-term memory (LSTM) models. Specifically, PredXGBR-1 achieves an mean absolute percentage error (MAPE) between 0.98 and 1.2% and an 𝑅2
+ value of 0.99, significantly surpassing PredXGBR-2’s 𝑅2
+ of 0.61 and delivering up to 86.8% improvement in MAPE compared to LSTM models. These results confirm the superior performance of PredXGBR-1 in accurately forecasting short-term load demand.},
+  abbr={Journal},
+  pdf={predXGBR.pdf},
+  code={https://github.com/rifatzabin/PredXGBR},
+  html={https://doi.org/10.3390/electronics13224521},
+  selected={false},
+  journal={Electronics},
+  volume={13},
+  number={22},
+  pages={4521},
+  year={2024},
+  publisher={MDPI}
+}
+
+@inproceedings{haque2024integrated,
+  title={Integrated Sensing and Communication for Efficient Edge Computing},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={Emerging mobile virtual reality (VR) systems are required to continuously perform complex computer vision tasks needing computational power that is excessive for mobile devices. Thus, techniques based on wireless edge computing (WEC) have been recently proposed. However, existing WEC methods require the transmission and processing of a high amount of video data which may ultimately saturate the wireless link. In this paper, we propose a novel sensing-assisted edge computing (ISAC-EC) approach to address this issue. ISAC-EC leverages knowledge about the physical environment to reduce the end-to-end latency and overall computational burden by transmitting to the edge server only the relevant data for the delivery of the service. Our intuition is that the transmission of the portion of the video frames where there are no changes with respect to the previous frames can be avoided. Through wireless sensing, only the part of the frames where any environmental change is detected is transmitted and processed. We evaluated ISAC-EC by using a 10K 360°camera with a Wi-Fi 6 sensing system operating at 160 MHz and performing localization and tracking. Experimental results show that ISAC-EC reduces both the channel occupation and end-to-end latency by more than 90% while improving the instance segmentation and object detection performance with respect to state-of-the-art WEC approaches. For reproducibility purposes, we pledge to share our dataset and code repository.},
+  abbr={Conference},
+  pdf={SAWEC.pdf},
+  code={https://github.com/kfoysalhaque/SAWEC},
+  html={https://doi.org/10.1109/WiMob61911.2024.10770523},
+  selected={true},
+  booktitle={2024 20th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)},
+  pages={611--614},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{meneghello2024evaluating,
+  title={Evaluating the Impact of Channel Feedback Quantization and Grouping in IEEE 802.11 MIMO Wi-Fi Networks},
+  author={Meneghello, Francesca and Haque, Khandaker Foysal and Restuccia, Francesco},
+  abstract={In this letter, we shed light on the impact of multiple-input, multiple-output (MIMO) beamforming feedback quantization and orthogonal frequency-division multiplexing (OFDM) sub-channel grouping on communication performance, for IEEE 802.11ac/ax Wi-Fi networks. We performed an extensive data collection campaign with commercial Wi-Fi devices deployed in different propagation environments considering several network configurations. Our objective is to provide a benchmark for research on efficient feedback compression mechanisms and to enable further analysis. As such, we pledge to share the datasets we collected and the emulation framework we developed.},
+  abbr={Letter},
+  pdf={feedback_eval_wcl.pdf},
+  code={https://github.com/francescamen/MIMO_feedback_quantization_grouping},
+  html={https://doi.org/10.1109/LWC.2024.3469383},
+  selected={true},
+  journal={IEEE Wireless Communications Letters},
+  year={2024},
+  publisher={IEEE}
+}
+
+
+@inproceedings{haque2024bfa,
+  title={BFA-Sense: Learning Beamforming Feedback Angles for Wi-Fi Sensing},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={In this paper, we propose BFA-Sense, a completely novel approach to implement standard-compliant Wi-Fi sensing applications. Wi-Fi sensing enables game-changing applications in remote healthcare, home entertainment, and home surveillance, among others. However, existing work leverages the manual extraction of the uncompressed channel state information (CSI) from Wi-Fi chips, which is not supported by the 802.11 standard-compliant devices and hence requires the use of specialized equipment. On the contrary, BFA-Sense leverages the compressed beamforming feedback angles (BFAs) transmitted during the standard-compliant sounding procedure to characterize the propagation environment. Conversely from the uncompressed CSI, BFAs (i) can be recorded without any firmware modification, and (ii) allows a single monitor device to simultaneously capture the channels between the access point and all the stations, thus providing much better sensitivity. We evaluate BFA-Sense through an extensive data collection campaign with three subjects performing twenty different activities in three different environments. We assess the cross-domain adaptability of BFA-Sense through embedding learning for tackling unseen environments with a few samples from the new environment. The results show that the proposed BFAs-based approach achieves about 11% more accuracy when compared to CSI-based prior work.},
+  abbr={Conference},
+  pdf={BFA-Sense.pdf},
+  code={https://github.com/kfoysalhaque/BFA-Sense},
+  html={https://doi.org/10.1109/PerComWorkshops59983.2024.10503460},
+  selected={false},
+  booktitle={2024 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)},
+  pages={575--580},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{haque2024sawec,
+  title={Sawec: Sensing-assisted wireless edge computing},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Karim, Md Ebtidaul and Restuccia, Francesco},
+  abstract={Emerging mobile virtual reality (VR) systems will require to continuously perform complex computer vision tasks on ultra-high-resolution video frames through the execution of deep neural networks (DNNs)-based algorithms. Since state-of-the-art DNNs require computational power that is excessive for mobile devices, techniques based on wireless edge computing (WEC) have been recently proposed. However, existing WEC methods require the transmission and processing of a high amount of video data which may ultimately saturate the wireless link. In this paper, we propose a novel Sensing-Assisted Wireless Edge Computing (SAWEC) paradigm to address this issue. SAWEC leverages knowledge about the physical environment to reduce the end-to-end latency and overall computational burden by transmitting to the edge server only the relevant data for the delivery of the service. Our intuition is that the transmission of the portion of the video frames where there are no changes with respect to previous frames can be avoided. Specifically, we leverage wireless sensing techniques to estimate the location of objects in the environment and obtain insights about the environment dynamics. Hence, only the part of the frames where any environmental change is detected is transmitted and processed. We evaluated SAWEC by using a 10K 360∘ with a Wi-Fi 6 sensing system operating at 160 MHz and performing localization and tracking. We considered instance segmentation and object detection as benchmarking tasks for performance evaluation. We carried out experiments in an anechoic chamber and an entrance hall with two human subjects in six different setups. Experimental results show that SAWEC reduces both the channel occupation and end-to-end latency by more than 90% while improving the instance segmentation and object detection performance with respect to state-of-the-art WEC approaches.},
+  abbr={Preprint},
+  pdf={sawec_journal.pdf},
+  code={https://github.com/kfoysalhaque/SAWEC},
+  html={https://doi.org/10.48550/arXiv.2402.10021},
+  selected={false},
+  journal={arXiv preprint arXiv:2402.10021},
+  year={2024}
+}
+
+@inproceedings{haque2023wi,
+  title={Wi-BFI: Extracting the IEEE 802.11 beamforming feedback information from commercial Wi-Fi devices},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={Recently, researchers have shown that the beamforming feedback angles (BFAs) used for Wi-Fi multiple-input multiple-output (MIMO) operations can be effectively leveraged as a proxy of the channel frequency response (CFR) for different purposes. Examples are passive human activity recognition and device fingerprinting. However, even though the BFAs report frames are sent in clear text, there is not yet a unified open-source tool to extract and decode the BFAs from the frames. To fill this gap, we developed Wi-BFI, the first tool that allows retrieving Wi-Fi BFAs and reconstructing the beamforming feedback information (BFI) -- a compressed representation of the CFR -- from the BFAs frames captured over the air. The tool supports BFAs extraction within both IEEE 802.11ac and 802.11ax networks operating on radio channels with 160/80/40/20 MHz bandwidth. Both multi-user and single-user MIMO feedback can be decoded through Wi-BFI. The tool supports real-time and offline extraction and storage of BFAs and BFI. The real-time mode also includes a visual representation of the channel state that continuously updates based on the collected data. Wi-BFI code is open source and the tool is also available as a pip package.},
+  abbr={Conference},
+  pdf={Wi-BFI.pdf},
+  code={https://github.com/kfoysalhaque/Wi-BFI},
+  html={https://doi.org/10.1145/3615453.3616514},
+  selected={false},
+  booktitle={Proceedings of the 17th ACM Workshop on Wireless Network Testbeds, Experimental evaluation \& Characterization},
+  pages={104--111},
+  year={2023}
 }
