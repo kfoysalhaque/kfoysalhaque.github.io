@@ -24,12 +24,12 @@ Our work spans four major contributions:
         {% include figure.liquid loading="eager" path="assets/img/Wi-BFI.jpg" title="Wi-BFI Overview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/quantization_tradeoff.jpg" title="Impact of feedback quantization/grouping" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/BeamSense.jpg" title="BeamSense Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Left: Wi-BFI can concurrently extract BFAs from devices operating with different standards, channels, and bandwidths.  
-    Right: Quantization and grouping reduce overhead but may affect BER.
+    Right: BeamSense, a new approach to Wi-Fi sensing where the standard-compliant BFAs routinely sent in MU-MIMO Wi-Fi networks is used to characterize the propagation environment between the MU-MIMO users and the AP
 </div>
 
 ---
