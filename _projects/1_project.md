@@ -16,7 +16,19 @@ Our work spans four major contributions:
 - **Feedback Quantization & Grouping**: A benchmark study on how IEEE 802.11 feedback compression affects performance  
 - **BFA-Sense**: A learning framework for sensing directly from BFAs, no firmware hacks required
 - **BeamSense**: A robust, cross-domain few-shot sensing system that outperforms CSI-based methods
-ß
+
+---
+
+<div class="row">
+    <div class="col-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/csi_vs_bfi.jpg" title="CSI vs BFI Sensing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    CSI vs proposed Beamforming Feedback based sensing approach
+</div>
+---
+
 ---
 
 <div class="row">
@@ -33,6 +45,7 @@ Our work spans four major contributions:
 </div>
 
 ---
+
 
 Unlike CSI-based approaches, which require **specialized tools** and only capture single-user links,  
 BFA-based sensing allows us to **capture all MU-MIMO channels simultaneously**, dramatically improving spatial diversity.  
