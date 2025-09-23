@@ -4,6 +4,7 @@ title: Wi-Fi Sensing in the Wild
 description: 
 img: assets/img/12.jpg
 importance: 1
+category: Integrated Sensing and Communication
 related_publications: true
 ---
 
