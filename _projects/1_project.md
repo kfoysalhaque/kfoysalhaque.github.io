@@ -2,7 +2,7 @@
 layout: page
 title: Wi-Fi Sensing in the Wild
 description: 
-img: assets/img/12.jpg
+img: assets/img/BeamSense.jpg
 importance: 1
 category: Integrated Sensing and Communication
 related_publications: true
@@ -21,7 +21,7 @@ Our work spans four major contributions:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/csi_vs_bfi_pipeline.jpg" title="CSI vs BFI/BFA sensing pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Wi-BFI.jpg" title="Wi-BFI Overview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/quantization_tradeoff.jpg" title="Impact of feedback quantization/grouping" class="img-fluid rounded z-depth-1" %}
@@ -31,7 +31,7 @@ Our work spans four major contributions:
     </div>
 </div>
 <div class="caption">
-    Left: CSI requires firmware modifications; BFAs are standard-compliant and lightweight.  
+    Left: Wi-BFI can concurrently extract the BFAs of the devices operating at different standards, channels and bandwidths  
     Middle: Quantization and grouping reduce overhead but may affect BER.  
     Right: Our multi-environment activity recognition dataset with Wi-Fi MU-MIMO.
 </div>
