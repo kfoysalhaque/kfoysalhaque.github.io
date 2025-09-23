@@ -16,7 +16,7 @@ Our work spans four major contributions:
 - **Feedback Quantization & Grouping**: A benchmark study on how IEEE 802.11 feedback compression affects performance  
 - **BFA-Sense**: A learning framework for sensing directly from BFAs, no firmware hacks required
 - **BeamSense**: A robust, cross-domain few-shot sensing system that outperforms CSI-based methods
-
+ß
 ---
 
 <div class="row">
@@ -26,14 +26,10 @@ Our work spans four major contributions:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/quantization_tradeoff.jpg" title="Impact of feedback quantization/grouping" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/activity_dataset.jpg" title="Wi-Fi sensing dataset collection setup" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
-    Left: Wi-BFI can concurrently extract the BFAs of the devices operating at different standards, channels and bandwidths  
-    Middle: Quantization and grouping reduce overhead but may affect BER.  
-    Right: Our multi-environment activity recognition dataset with Wi-Fi MU-MIMO.
+    Left: Wi-BFI can concurrently extract BFAs from devices operating with different standards, channels, and bandwidths.  
+    Right: Quantization and grouping reduce overhead but may affect BER.
 </div>
 
 ---
