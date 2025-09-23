@@ -411,9 +411,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-beamsense-has-been-accepted-for-publication-in-computer-networks-if-4-4",
           title: 'Our paper BeamSense has been accepted for publication in Computer Networks (IF: 4.4)...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-wi-fi-sensing-in-the-wild",
+          title: 'Wi-Fi Sensing in the Wild',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
