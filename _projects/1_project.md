@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Wi-Fi Sensing in the Wild
+title: Wi-Fi Sensing with Beamforming Feedback 
 description: 
 img: assets/img/BeamSense.jpg
 importance: 1
 category: Integrated Sensing and Communication
-related_publications: true
+related_publications: false
 ---
 
 Wi-Fi networks are everywhere – but beyond connectivity, they can also sense.  
@@ -68,8 +68,9 @@ We demonstrated that sensing with BFAs achieves **10% higher accuracy** than CSI
 ---
 
 ### Publications
-- Haque, K.F., Meneghello, F. and Restuccia, F., 2023, October. Wi-BFI: Extracting the IEEE 802.11 beamforming feedback information from commercial Wi-Fi devices. In Proceedings of the 17th ACM Workshop on Wireless Network Testbeds, Experimental evaluation & Characterization (pp. 104-111).
-- **Feedback Quantization & Grouping** – IEEE WCL 2024 
-- **BFA-Sense** – IEEE PerCom Workshops 2024  
-- **BeamSense** – Computer Networks 2025 
+1. Haque, K.F., Meneghello, F. and Restuccia, F., 2023, October. Wi-BFI: Extracting the IEEE 802.11 beamforming feedback information from commercial Wi-Fi devices. In Proceedings of the 17th ACM Workshop on Wireless Network Testbeds, Experimental evaluation & Characterization (pp. 104-111).
+2. Feedback Quantization & Grouping – IEEE WCL 2024 
+3. BFA-Sense – IEEE PerCom Workshops 2024  
+4. BeamSense – Computer Networks 2025 
+
 ---
