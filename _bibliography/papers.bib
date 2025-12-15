@@ -1,6 +1,67 @@
 ---
 ---
 
+@inproceedings{haque2026bandweave,
+  title={BANDWEAVE: Enhanced Channel Estimation in MIMO Networks with Multi-Band Fusion},
+  author={Haque, Khandaker Foysal and Meneghello, Francesca and Ashdown, Jonathan and Restuccia, Francesco},
+  abstract={High-throughput wireless communications and ac-
+    curate sensing rely on high-resolution channel estimates. Es-
+    timation algorithms should be able to accurately capture the
+    underlying wireless multipath propagation to compensate for the
+    channel in data transmission while leveraging it for acquiring
+    sensing information. However, due to the frequency-dependent
+    superposition of delayed propagation paths, certain components
+    may undergo destructive interference at specific frequencies,
+    obscuring their contribution. This leads to partial reconstruction
+    of the channel, thereby degrading the overall estimation fidelity.
+    To address this challenge, we propose BANDWEAVE, a new
+    multi-band channel frequency response (CFR) fusion framework
+    that significantly enhances channel estimation by leveraging
+    complementary multipath information across multiple frequency
+    bands. BANDWEAVE includes a three-phase progressive learning
+    algorithm enabling adaptive, robust, and efficient fusion in
+    dynamic multi-band wireless environments. We experimentally
+    evaluate BANDWEAVE with an IEEE 802.11ac multi-user mul-
+    tiple input multiple output (MU-MIMO) testbed and a 60 GHz
+    mmWave single-user multiple input multiple output (SU-MIMO)
+    system in three different propagation environments with different
+    fading conditions. Experimental results show that BANDWEAVE
+    channel estimation outperforms single-band estimation achieving
+    more than 16% of throughput improvement and bit error rate
+    (BER) reduction. Also, BANDWEAVE achieves more than 4.9×
+    gain in communication performance compared to state of the
+    art (SOTA) band-merging approaches. Latency measurements on
+    Jetson Nano, Jetson Orin Nano and Raspberry Pi 5 show that
+    BANDWEAVE reduces inference time and energy consumption by
+    up to 17× and 18×, respectively, with respect to SOTA methods.},
+  abbr={Conference},
+  pdf={nothing.pdf},
+  code={https://github.com/kfoysalhaque/BandWeave},
+  html={},
+  selected={true},
+  booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications},
+  pages={1--10},
+  year={2026},
+  organization={IEEE}
+}
+
+@article{haque2025si,
+  title={Si-FI: Learning the Beamforming Feedback for Simultaneous Multi-Subject Sensing},
+  abstract={There has been significant progress in Wi-Fi sensing applications pertaining to home surveillance, remote healthcare, and home entertainment among others. However, most of the work leverages manual extraction of Channel State Information (CSI) from Wi-Fi network interface card (NIC) and targets single-subject sensing. In this work, we devise a simultaneous multi-subject sensing strategy that can adapt to different environments and people being monitored. Si-FI leverages standard-compliant beamforming feedback information (BFI) as a proxy of CSI to characterize the propagation environment. Unlike CSI, BFI (i) can be captured without any firmware modifications and (ii) captures the multiple channels between the access point and the stations without any direct access to the sensing devices. Thus, conversely, from existing work, the edge server in Si-FI records the BFI of the channels between Access Point (AP) and all the stations (STAs) (sensing devices) with a single capture, reducing the channel occupation, transmission and system latency dramatically. To achieve generalization over unseen environments and people, we develop a few-shot learning algorithm named Si-FI FREL to operate with beamforming feedback angles (BFAs) (compressed BFI). We validate Si-FI through an extensive data collection campaign in 3 different environments and 3 subjects performing 20 different activities simultaneously. We demonstrate that Si-FI achieves classification accuracy of up to 99 %, while Si-FI FREL improves the accuracy up to 27 % when compared to the state-of-the-art domain adaptation algorithm. Si-FI reduces the system latency by 50 % and channel occupation by 110 KB per sample for each sensing device compared to the state-of-the-art simultaneous multi-subject sensing work.},
+  author={Haque, Khandaker Foysal and Zhang, Milin and Meneghello, Francesca and Restuccia, Francesco},
+  abbr={Journal},
+  journal={Computer Networks},
+  pages={111907},
+  year={2025},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128625008734},
+  code={https://github.com/kfoysalhaque/Si-FI},
+  pdf={Si-FI.pdf},
+  selected={true}
+}
+
+
+
 @inproceedings{meneghello2025radio,
   abstract={In this paper, we present DeepCSIv2, a data-driven radio fingerprinting (RFP) algorithm to characterize Wi-Fi devices acting as stations (STAs) at the physical layer. Our approach relies on STA-specific hardware impairments extracted from the multiple-input, multiple-output (MIMO) channel state information (CSI) feedback transmitted unencrypted by the STAs to Wi-Fi access points (APs) to establish MIMO transmissions. Recent work showed that such feedback can be effectively used to fingerprint devices acting as APs. In this work, we demonstrate that the same control information can be leveraged to obtain relevant features describing the STAs. Our intuition is that even tiny STA-specific hardware characteristics introduce detectable impairments in the channel estimated by the STA, and percolate in the CSI feedback – consisting of the compressed and quantized channel estimate. DeepCSIv2 is based on a neural network architecture that automatically extracts the STA’s radio fingerprint from the feedback captured over the air and identifies the device. We evaluated DeepCSIv2 through an extensive data collection campaign using 18 commercial IEEE 802.11ax network interface cards (NICs) of the same type from the same vendor. We considered different experiment configurations, changing the propagation environment and the operational bandwidth. The results show that DeepCSIv2 reaches an accuracy higher than 96% in identifying the 18 NICs in our dataset. We will share the dataset and RFP code with the community for reproducibility.},
   abbr={Conference},
@@ -9,7 +70,7 @@
   booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)},
   pages={1--6},
   year={2025},
-  pdf={example_pdf.pdf},
+  pdf={Radio_Fingerprinting.pdf},
   code={https://github.com/kfoysalhaque/BFA-Sense},
   html={https://ieeexplore.ieee.org/abstract/document/11152893},
   organization={IEEE},
@@ -53,7 +114,7 @@ abstract = {The performance of multiple-input, multiple-output (MIMO) systems hi
 booktitle = {Proceedings of the Twenty-Sixth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
 pages = {11–20},
 numpages = {10},
-selected={true},
+selected={false},
 location = {Rice University, Houston, TX, USA},
 series = {MobiHoc '25}
 }
