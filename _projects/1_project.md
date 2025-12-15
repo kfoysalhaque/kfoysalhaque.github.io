@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wi-Fi Sensing with Beamforming Feedback 
+title: Sensing with Beamforming Feedback 
 description: 
 img: assets/img/BeamSense.jpg
 importance: 1
