@@ -426,8 +426,11 @@ ninja.data = [{
           section: "News",},{id: "news-thrilled-to-announce-that-i-ve-passed-my-dissertation-proposal-review-sincere-thanks-to-my-committee-members",
           title: 'Thrilled to announce that I’ve passed my Dissertation Proposal Review; sincere thanks to...',
           description: "",
-          section: "News",},{id: "projects-wi-fi-sensing-with-beamforming-feedback",
-          title: 'Wi-Fi Sensing with Beamforming Feedback',
+          section: "News",},{id: "news-our-paper-on-simultaneous-multi-subject-sensing-is-accepted-in-computer-networks-tada",
+          title: 'Our paper on Simultaneous Multi-subject Sensing is accepted in Computer Networks! :tada:',
+          description: "",
+          section: "News",},{id: "projects-sensing-with-beamforming-feedback",
+          title: 'Sensing with Beamforming Feedback',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
