@@ -24,6 +24,24 @@
   ],
   "education": [
     {
+      "institution": "Islamic University of Technology",
+      "location": "Dhaka, Bangladesh",
+      "url": "https://www.iutoic-dhaka.edu/",
+      "studyType": "MS",
+      "startDate": "2011-12-03",
+      "endDate": "2016-11-23",
+      "highlights": ["Advisor: Prof. Habib Kabir"]
+    },
+    {
+      "institution": "Central Michigan University",
+      "location": "Mount Pleasant, MI, US",
+      "url": "https://www.cmich.edu/",
+      "studyType": "MS",
+      "startDate": "2019-09-06",
+      "endDate": "2021-05-08",
+      "highlights": ["Advisor: Prof. Ahmed Abdelgawad and Prof. Kumar Yelamarthi"]
+    },
+    {
       "institution": "Northeastern University",
       "location": "Boston, MA, US",
       "url": "https://www.northeastern.edu/",
@@ -32,16 +50,6 @@
       "endDate": "2026-04-29",
       "Advisor": "Francesco Restuccia",
       "Thesis": ["Domain-Adaptive Learning-Driven Intelligent Wireless Systems for Sensing and Edge Computing"]
-    },
-    {
-      "institution": "Central Michigan University",
-      "location": "Boston, MA, US",
-      "url": "https://www.northeastern.edu/",
-      "studyType": "PhD",
-      "startDate": "2021-09-21",
-      "endDate": "2026-04-29",
-      "highlights": "Advisor: Prof. Ahmed Abdelgawad and Prof. Kumar Yelamarthi",
-      "Thesis": [".............................."]
     }
   ]
 }
