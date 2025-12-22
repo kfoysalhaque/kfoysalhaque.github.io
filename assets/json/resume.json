@@ -19,7 +19,7 @@
       "url": "https://mentis.info/",
       "startDate": "2021-09-21",
       "endDate": "2026-04-29",
-      "highlights": ["Intelligent Wireless Systems"]
+      "highlights": ["Intelligent Wireless Systems", "Integrated Sensing and Communication", "Sensing Assisted MIMO and Edge Computing"]
     }
   ],
   "education": [
@@ -32,6 +32,16 @@
       "endDate": "2026-04-29",
       "Advisor": "Francesco Restuccia",
       "Thesis": ["Domain-Adaptive Learning-Driven Intelligent Wireless Systems for Sensing and Edge Computing"]
+    },
+    {
+      "institution": "Central Michigan University",
+      "location": "Boston, MA, US",
+      "url": "https://www.northeastern.edu/",
+      "studyType": "PhD",
+      "startDate": "2021-09-21",
+      "endDate": "2026-04-29",
+      "highlights": "Advisor: Prof. Ahmed Abdelgawad and Prof. Kumar Yelamarthi",
+      "Thesis": [".............................."]
     }
   ]
 }
