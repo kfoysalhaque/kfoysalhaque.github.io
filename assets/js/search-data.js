@@ -462,6 +462,11 @@ ninja.data = [{
           description: "Learning-based channel estimation, compression, and adaptive feedback for efficient MIMO networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_intelligent_mimo_systems/";
+            },},{id: "projects-ai-driven-mimo-for-wireless-edge-computing",
+          title: 'AI-Driven MIMO for Wireless Edge Computing',
+          description: "Sensing-assisted, task-aware, and physical-layer intelligence for efficient edge inference",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_ai_driven_mimo_edge/";
             },},{
         id: 'social-email',
         title: 'email',
