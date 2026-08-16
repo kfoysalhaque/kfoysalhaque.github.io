@@ -2,7 +2,7 @@
 layout: page
 title: Intelligent MIMO Systems
 description: Learning-based channel estimation, compression, and adaptive feedback for efficient MIMO networks
-img: assets/img/bandweave_overview.jpg
+img: assets/img/bandweave_overview.png
 importance: 1
 category: AI-Driven MIMO
 related_publications: false
@@ -26,7 +26,7 @@ BANDWEAVE was evaluated on an IEEE 802.11ac MU-MIMO Wi-Fi testbed and a 60 GHz m
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/bandweave_overview.jpg" title="BANDWEAVE multi-band channel-fusion workflow" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/bandweave_overview.png" title="BANDWEAVE multi-band channel-fusion workflow" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -47,7 +47,7 @@ The [SHRINK implementation](https://github.com/RummaN38/SHRINK_MobiHoc) is publi
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/shrink_overview.jpg" title="SHRINK adaptive channel-sounding procedure" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/shrink_overview.png" title="SHRINK adaptive channel-sounding procedure" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -62,7 +62,7 @@ The evaluation combines channel measurements from commercial devices with standa
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/mimo_feedback_results.jpg" title="Impact of MIMO feedback quantization on reconstruction error and BER" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/mimo_feedback_results.png" title="Impact of MIMO feedback quantization on reconstruction error and BER" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
