@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper received the **Best Paper Award at IEEE INFOCOM 2026**! I was delighted to present the work at INFOCOM and am grateful to my collaborators for making this achievement possible. 🏆
+Our paper received the [**Best Paper Award at IEEE INFOCOM 2026**](https://infocom2026.ieee-infocom.org/awards)! I was delighted to present the work at INFOCOM and am grateful to my collaborators for making this achievement possible. 🏆
