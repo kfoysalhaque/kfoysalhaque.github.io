@@ -447,9 +447,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-m3-cfr-a-domain-adaptive-bi-static-mmwave-mimo-cfr-dataset-for-micro-gesture-recognition-has-been-accepted-for-publication-in-ieee-sensors-letters",
           title: 'Our paper, “M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition”,...',
           description: "",
-          section: "News",},{id: "projects-sensing-with-beamforming-feedback",
-          title: 'Sensing with Beamforming Feedback',
-          description: "",
+          section: "News",},{id: "projects-standard-compliant-wi-fi-sensing-with-beamforming-feedback",
+          title: 'Standard-Compliant Wi-Fi Sensing with Beamforming Feedback',
+          description: "Practical, domain-adaptive, and multi-user sensing with IEEE 802.11 beamforming feedback",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
