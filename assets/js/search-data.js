@@ -467,6 +467,16 @@ ninja.data = [{
           description: "Sensing-assisted, task-aware, and physical-layer intelligence for efficient edge inference",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_ai_driven_mimo_edge/";
+            },},{id: "projects-mimo-feedback-for-radio-fingerprinting",
+          title: 'MIMO Feedback for Radio Fingerprinting',
+          description: "Domain-adaptive device identification from standard-compliant Wi-Fi beamforming feedback",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_mimo_radio_fingerprinting/";
+            },},{id: "projects-energy-efficient-covert-wireless-networking",
+          title: 'Energy-Efficient Covert Wireless Networking',
+          description: "Decentralized multi-modal routing that jointly optimizes energy, throughput, and covertness",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_covert_wireless_networking/";
             },},{
         id: 'social-email',
         title: 'email',
