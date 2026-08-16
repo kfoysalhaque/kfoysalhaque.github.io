@@ -452,6 +452,11 @@ ninja.data = [{
           description: "Practical, domain-adaptive, and multi-user sensing with IEEE 802.11 beamforming feedback",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-mmwave-and-sub-thz-integrated-sensing-and-communication",
+          title: 'mmWave and Sub-THz Integrated Sensing and Communication',
+          description: "Communication-native micro-gesture recognition and material sensing across mmWave and sub-THz systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_mmwave_subthz_isac/";
             },},{
         id: 'social-email',
         title: 'email',
