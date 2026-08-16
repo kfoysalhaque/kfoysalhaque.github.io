@@ -4,10 +4,13 @@
 @article{haque2026datasets,
   title={Datasets for Human Activity Recognition with Integrated Sensing and Communications in Wi-Fi},
   author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={Wi-Fi sensing has gained significant attention forits non-intrusive nature and the widespread avail-ability of Wi-Fi-enabled devices that can be lever-aged for sensing. Given the complexity of wirelesspropagation, sensing applications are increasing-ly relying on machine learning tools, which alloweffectively extracting meaningful features from theradio measurements. However, developing robust,domain-adaptive algorithms that perform wellacross diverse environments remains challenging,requiring extensive datasets with rich diversity interms of environments, subjects, and configurations.In this view, here we present and release two com-prehensive datasets for human activity recognition(HAR) through Wi-Fi consisting of the channel stateinformation (CSI) and beamforming feedback infor-mation (BFI) collected through commercial IEEE802.11ac devices in both line of sight (LoS) andnon-line of sight (NLoS) scenarios in different days.The first dataset entails traces related to 20 activitieswith six subjects across six different setups. The sec-ond dataset focuses on simultaneous multi-subjectactivity classification, with three individuals performing distinct activities concurrently. Our datasets arethe first that also provide corresponding BFI mea-surements — a newly investigated and appealingprimitive for Wi-Fi sensing given its ease of collec-tion procedure. Overall, the datasets contain about240 GB of CSI data and 230 GB for BFI.},
   abbr={Magazine},
   journal={IEEE Communications Magazine},
   year={2026},
+  pdf={haque2026datasets.pdf},
   publisher={IEEE},
+  code={https://github.com/kfoysalhaque/CSI-BFI-HAR},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6Ag-9dwAAAAJ&sortby=pubdate&citation_for_view=6Ag-9dwAAAAJ:_Qo2XoVZTnwC},
   selected={true}
 }
@@ -15,11 +18,24 @@
 @article{haque2026m3cfr,
   title={M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition},
   author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={In this letter, we introduce M3-channel frequency response (CFR),
+a bistatic millimeter-wave (mmWave) multiple-input multiple-output (MIMO) CFR
+dataset for fine-grained microgesture recognition under domain shifts. As wireless systems move toward integrated sensing and communication (ISAC), sensing will increasingly be realized within communication infrastructures rather than
+via standalone sensing hardware. Yet most existing mmWave sensing datasets
+are radar-centric and sensing-specific, which misaligns with communication-driven
+ISAC deployment. In contrast, M3-CFR provides communication-native channel
+frequency response (CFR) from an 8 × 8 fully digital mmWave MIMO ISAC testbed
+at 58 GHz with 1 GHz bandwidth. It contains ten microgestures from three subjects
+across three indoor environments (3000 synchronized CFR instances). The dataset
+consists of raw and domain-adaptively processed CFR. The latter includes path-loss
+compensation, frequency normalization, and an entropy-guided subchannel filtering pipeline, enabling cross-environment and cross-subject sensing benchmarking.},
   abbr={Letter},
   journal={IEEE Sensors Letters},
   year={2026},
   publisher={IEEE},
   doi={10.1109/LSENS.2026.3703644},
+  pdf={haque2026m3cfr.pdf},
+  code={https://github.com/kfoysalhaque/M3-CFR},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6Ag-9dwAAAAJ&sortby=pubdate&citation_for_view=6Ag-9dwAAAAJ:HDshCWvjkbEC},
   selected={true}
 }
@@ -27,10 +43,13 @@
 @inproceedings{haque2026beamid,
   title={BeamID: Domain-Adaptive Radio Fingerprinting with MIMO Beamforming Feedback},
   author={Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+  abstract={Client identification at the network control plane has gained increasing attention for supporting monitoring and securing workflows in wireless deployment. Interestingly, devicespecific hardware characteristics in the network interface card (NIC) introduce systematic impairments in channel estimation that percolate into multiple-input, multiple-output (MIMO) beamforming feedback. Recent work has shown that beamforming feedback matrices reconstructed from passively captured beamforming feedback information (BFI) frames can be exploited for accurate radio fingerprinting (RFP). However, existing fingerprinting approaches lead to severe performance degradation under domain shifts caused by changes in the propagation channel or deployment configuration. In this paper, we presentBeamID, a domain-adaptive RFP framework that enables reliable cross-environment identification from beamforming feedback.BeamID learns radio-discriminative embeddings in a source domain using supervised contrastive learning and performs few-shot adaptation directly in embedding space to align target-domain representations without full retraining. This design explicitly addresses environment-induced distribution shifts while preserving inter-radio separability. We evaluate BeamID using real Wi-Fi measurements collected across nine distinct locations with fifteen different NICs, demonstrating that few-shot adaptation substantially restores cross-domain RFP accuracy. With as few as five labeled samples per client in a new unseen environment,BeamID achieves up to ∼99% identification accuracy while requiring only ∼2.3 seconds of adaptation time.},
   abbr={Conference},
   booktitle={2026 IEEE International Conference on Network Softwarization (NetSoft)},
   year={2026},
   organization={IEEE},
+  pdf={haque2026beamid.pdf},
+  code={https://github.com/kfoysalhaque/BeamID},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6Ag-9dwAAAAJ&sortby=pubdate&citation_for_view=6Ag-9dwAAAAJ:hC7cP41nSMkC},
   selected={false}
 }
@@ -92,9 +111,9 @@
     BANDWEAVE reduces inference time and energy consumption by
     up to 17× and 18×, respectively, with respect to SOTA methods.},
   abbr={Conference},
-  pdf={nothing.pdf},
+  pdf={haque2026bandweave.pdf},
   code={https://github.com/kfoysalhaque/BandWeave},
-  html={},
+  html={https://ieeexplore.ieee.org/abstract/document/11571725},
   selected={true},
   booktitle={IEEE INFOCOM 2026-IEEE Conference on Computer Communications},
   pages={1--10},
@@ -114,7 +133,7 @@
   html={https://www.sciencedirect.com/science/article/pii/S1389128625008734},
   code={https://github.com/kfoysalhaque/Si-FI},
   pdf={Si-FI.pdf},
-  selected={true}
+  selected={false}
 }
 
 
@@ -188,7 +207,7 @@ series = {MobiHoc '25}
   pages={1--6},
   year={2025},
   organization={IEEE},
-  selected={true}
+  selected={false}
 }
 
 
@@ -217,9 +236,9 @@ series = {MobiHoc '25}
   energy-efficient covert communication. Extensive numerical analysis demonstrates that DECOR significantly outperforms existing
   approaches in terms of energy-efficiency and data overhead.},
   abbr={Journal},
-  pdf={DECOR.pdf},
-  html={https://mentis.info/wp-content/uploads/2025/06/DECOR_TIFS_2025.pdf},
-  selected={false},
+  pdf={haque100decor.pdf},
+  html={https://ieeexplore.ieee.org/abstract/document/11450432},
+  selected={true},
   journal={IEEE Transactions on Information Forensics and Security},
   volume={21},
   year={2026},
@@ -266,7 +285,7 @@ series = {MobiHoc '25}
   pdf={SCOPE.pdf},
   code={https://github.com/kfoysalhaque/SCOPE},
   html={https://doi.org/10.1109/LWC.2025.3576010},
-  selected={true},
+  selected={false},
   journal={IEEE Wireless Communications Letters},
   year={2025},
   publisher={IEEE}
