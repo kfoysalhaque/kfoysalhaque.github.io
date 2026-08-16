@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [Integrated Sensing and Communication, AI-Driven MIMO]
+display_categories: [Integrated Sensing and Communication, AI-Driven MIMO, AI-Driven Wireless Security]
 horizontal: false
 ---
 
