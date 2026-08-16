@@ -457,6 +457,11 @@ ninja.data = [{
           description: "Communication-native micro-gesture recognition and material sensing across mmWave and sub-THz systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_mmwave_subthz_isac/";
+            },},{id: "projects-intelligent-mimo-systems",
+          title: 'Intelligent MIMO Systems',
+          description: "Learning-based channel estimation, compression, and adaptive feedback for efficient MIMO networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_intelligent_mimo_systems/";
             },},{
         id: 'social-email',
         title: 'email',
