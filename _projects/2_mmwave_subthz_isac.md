@@ -2,7 +2,7 @@
 layout: page
 title: mmWave and Sub-THz Integrated Sensing and Communication
 description: Communication-native micro-gesture recognition and material sensing across mmWave and sub-THz systems
-img: assets/img/scope_overview.jpg
+img: assets/img/scope_overview.png
 importance: 2
 category: Integrated Sensing and Communication
 related_publications: false
@@ -20,7 +20,7 @@ The system was evaluated using ten micro-gestures performed by two subjects in t
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/magic_overview.jpg" title="MAGIC gesture-recognition workflow" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/magic_overview.png" title="MAGIC gesture-recognition workflow" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ The dataset contains **3,000 labeled gesture instances** and approximately **1.5
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/m3cfr_dataset.jpg" title="M3-CFR experimental setup and data collection" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/m3cfr_dataset.png" title="M3-CFR experimental setup and data collection" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -50,7 +50,7 @@ The system was implemented on a real sub-THz testbed with **10 GHz bandwidth** a
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/scope_overview.jpg" title="SCOPE cooperative material-sensing workflow" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/scope_overview.png" title="SCOPE cooperative material-sensing workflow" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
