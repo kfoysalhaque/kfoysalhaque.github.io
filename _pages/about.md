@@ -6,7 +6,7 @@ subtitle: Incoming Postdoctoral Researcher at <a href='https://networks.imdea.or
 
 profile:
   align: right
-  image: Foysal2.jpg
+  image: Foysal2.png
   image_circular: false # crops the image to make it circular
   more_info:
 
