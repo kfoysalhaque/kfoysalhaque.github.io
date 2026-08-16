@@ -2,7 +2,7 @@
 layout: page
 title: mmWave and Sub-THz Integrated Sensing and Communication
 description: Communication-native micro-gesture recognition and material sensing across mmWave and sub-THz systems
-img: assets/img/scope_overview.png
+img: assets/img/magic_overview.png
 importance: 2
 category: Integrated Sensing and Communication
 related_publications: false
