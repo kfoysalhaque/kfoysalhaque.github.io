@@ -231,6 +231,70 @@ nav_order: 4
         </p>
       </div>
     </article>
+
+    <article class="talk-card">
+      <img
+        src="{{ '/assets/img/talks/magic.png' | relative_url }}"
+        alt="Title slide for the MAGIC presentation at IEEE WoWMoM 2025"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">IEEE WoWMoM 2025</p>
+        <h3>MAGIC: Meta-Learning Adaptive Gesture Recognition with mmWave MIMO CSI</h3>
+        <p>
+          Communication-native mmWave MIMO channel measurements and meta-learning enable fine-grained micro-gesture recognition that adapts
+          to new subjects and environments.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="magic-slide-viewer"
+            data-pdf="{{ '/assets/slides/MAGIC.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/MAGIC.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/2_mmwave_subthz_isac.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.1109/WoWMoM65615.2025.00030">Paper</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/kfoysalhaque/MAGIC">Code &amp; data</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="talk-card">
+      <img
+        src="{{ '/assets/img/talks/wi_bfi_wintech_2023.png' | relative_url }}"
+        alt="Title slide for the Wi-BFI presentation at ACM WiNTECH 2023"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">ACM WiNTECH 2023</p>
+        <h3>Wi-BFI: Extracting IEEE 802.11 Beamforming Feedback Information from Commercial Wi-Fi Devices</h3>
+        <p>
+          Wi-BFI extracts beamforming feedback angles from IEEE 802.11ac/ax frames and reconstructs compressed channel information for
+          real-time and offline wireless experimentation.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="wi-bfi-slide-viewer"
+            data-pdf="{{ '/assets/slides/Wi-BFI_WiNTECH_2023.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/Wi-BFI_WiNTECH_2023.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/1_project.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.1145/3615453.3616514">Paper</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/kfoysalhaque/Wi-BFI">Code</a>
+        </p>
+      </div>
+    </article>
   </div>
 
   <dialog id="beamid-slide-viewer" class="slide-dialog">
@@ -299,6 +363,34 @@ nav_order: 4
       title="Browse the BeamSense presentation slides"
     ></iframe>
     <a class="slide-dialog-link" href="{{ '/assets/slides/BeamSense_Research_Talk.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="wi-bfi-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>Wi-BFI — ACM WiNTECH 2023</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/Wi-BFI_WiNTECH_2023.pdf' | relative_url }}#view=FitH"
+      title="Browse the Wi-BFI presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/Wi-BFI_WiNTECH_2023.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="magic-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>MAGIC — IEEE WoWMoM 2025</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/MAGIC.pdf' | relative_url }}#view=FitH"
+      title="Browse the MAGIC presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/MAGIC.pdf' | relative_url }}" target="_blank" rel="noopener">
       Open PDF in a new tab
     </a>
   </dialog>
