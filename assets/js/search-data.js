@@ -23,12 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-research-showcase",
-          title: "research showcase",
-          description: "Interactive demonstrations of intelligent wireless sensing, communication, and MIMO systems.",
+        },{id: "nav-demos-amp-talks",
+          title: "demos &amp; talks",
+          description: "Demonstrations and presentations of intelligent wireless sensing, communication, and MIMO systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/showcase/";
+          },
+        },{id: "nav-testbeds-amp-datasets",
+          title: "testbeds &amp; datasets",
+          description: "Experimental wireless platforms and public datasets supporting reproducible systems research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/testbeds-datasets/";
           },
         },{id: "nav-cv",
           title: "cv",
