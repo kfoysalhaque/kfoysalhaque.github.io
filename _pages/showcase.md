@@ -140,12 +140,12 @@ nav_order: 4
 
     <article class="talk-card">
       <img
-        src="{{ '/assets/img/talks/sawec_percom_2024.png' | relative_url }}"
-        alt="Title slide for the SAWEC presentation at IEEE PerCom 2024"
+        src="{{ '/assets/img/talks/sawec_research_talk.png' | relative_url }}"
+        alt="Title slide for the SAWEC research presentation"
         loading="lazy"
       >
       <div class="talk-content">
-        <p class="talk-venue">IEEE PerCom 2024</p>
+        <p class="talk-venue">Research Talk &middot; SAWEC</p>
         <h3>SAWEC: Sensing-Assisted Wireless Edge Computing</h3>
         <p>
           Wireless sensing identifies relevant regions in high-resolution visual data, enabling selective edge offloading that reduces channel
@@ -156,10 +156,10 @@ nav_order: 4
             type="button"
             class="slide-viewer-trigger"
             data-dialog="sawec-slide-viewer"
-            data-pdf="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}"
+            data-pdf="{{ '/assets/slides/SAWEC_Research_Talk.pdf' | relative_url }}"
           >Browse slides</button>
           &nbsp;&middot;&nbsp;
-          <a href="{{ '/assets/slides/SAWEC_PerCom_2024.pptx' | relative_url }}">Download PowerPoint</a>
+          <a href="{{ '/assets/slides/SAWEC_Research_Talk.pptx' | relative_url }}">Download PowerPoint</a>
           &nbsp;&middot;&nbsp;
           <a href="{% link _projects/4_ai_driven_mimo_edge.md %}">Project</a>
           &nbsp;&middot;&nbsp;
@@ -263,14 +263,14 @@ nav_order: 4
 
   <dialog id="sawec-slide-viewer" class="slide-dialog">
     <div class="slide-dialog-header">
-      <strong>SAWEC — IEEE PerCom 2024</strong>
+      <strong>SAWEC — Research Talk</strong>
       <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
     </div>
     <iframe
-      data-src="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}#view=FitH"
+      data-src="{{ '/assets/slides/SAWEC_Research_Talk.pdf' | relative_url }}#view=FitH"
       title="Browse the SAWEC presentation slides"
     ></iframe>
-    <a class="slide-dialog-link" href="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <a class="slide-dialog-link" href="{{ '/assets/slides/SAWEC_Research_Talk.pdf' | relative_url }}" target="_blank" rel="noopener">
       Open PDF in a new tab
     </a>
   </dialog>
