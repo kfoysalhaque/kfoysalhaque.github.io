@@ -105,11 +105,18 @@ nav_order: 5
   </article>
 
   <article class="testbed-card">
-    <img
-      src="{{ '/assets/img/testbeds/m3mimo_testbed.png' | relative_url }}"
-      alt="m3MIMO fully digital mmWave MU-MIMO testbed with 8 by 8 and 4 by 4 transceivers"
-      loading="lazy"
-    >
+    <div class="testbed-gallery">
+      <img
+        src="{{ '/assets/img/testbeds/m3mimo_testbed.png' | relative_url }}"
+        alt="m3MIMO fully digital mmWave MU-MIMO testbed with 8 by 8 and 4 by 4 transceivers"
+        loading="lazy"
+      >
+      <img
+        src="{{ '/assets/img/testbeds/m3mimo_anechoic.jpg' | relative_url }}"
+        alt="m3MIMO transceivers deployed in an anechoic chamber"
+        loading="lazy"
+      >
+    </div>
     <div class="testbed-content">
       <h3>m3MIMO: Fully Digital mmWave MU-MIMO Testbed</h3>
       <p class="testbed-meta">57–64 GHz &middot; Up to 1 GHz bandwidth &middot; 8 &times; 8 MIMO &middot; RFSoC SDRs</p>
@@ -137,6 +144,52 @@ nav_order: 5
             <li>MAGIC micro-gesture recognition</li>
             <li>M3-CFR dataset collection and domain adaptation</li>
             <li>Tracking-based beamforming and MIMO channel estimation</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <article class="testbed-card">
+    <div class="testbed-gallery">
+      <img
+        src="{{ '/assets/img/testbeds/sawec_anechoic.jpg' | relative_url }}"
+        alt="SAWEC sensing and visual edge-computing testbed deployed in an anechoic chamber"
+        loading="lazy"
+      >
+      <img
+        src="{{ '/assets/img/testbeds/sawec_entrance_hall.jpg' | relative_url }}"
+        alt="SAWEC Wi-Fi sensing and 360-degree camera setup deployed in an entrance hall"
+        loading="lazy"
+      >
+    </div>
+    <div class="testbed-content">
+      <h3>SAWEC: Sensing-Assisted Edge Computing Testbed</h3>
+      <p class="testbed-meta">Wi-Fi 6 sensing &middot; 160 MHz &middot; 10K 360&deg; video &middot; Edge AI</p>
+      <p>
+        A joint wireless-sensing and visual edge-computing platform that uses Wi-Fi measurements to localize and track environmental changes.
+        The sensed locations are mapped to regions of interest in ultra-high-resolution video, allowing the system to offload and process only
+        the visually relevant parts of each frame.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>System Capabilities</h4>
+          <ul>
+            <li>160 MHz Wi-Fi 6 sensing for object localization and tracking</li>
+            <li>Synchronized capture with a 10K 360&deg; camera</li>
+            <li>Wireless-to-visual mapping for sensing-assisted region-of-interest selection</li>
+            <li>Controlled anechoic-chamber and real-world entrance-hall deployments</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>SAWEC selective visual-data offloading</li>
+            <li>Low-latency instance segmentation and object detection at the edge</li>
+            <li>More than 90% reduction in channel occupation and end-to-end latency</li>
+            <li><a href="https://github.com/kfoysalhaque/SAWEC">Open-source implementation and datasets</a></li>
           </ul>
         </section>
       </div>
