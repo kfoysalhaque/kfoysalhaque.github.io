@@ -137,6 +137,100 @@ nav_order: 4
         </p>
       </div>
     </article>
+
+    <article class="talk-card">
+      <img
+        src="{{ '/assets/img/talks/sawec_percom_2024.png' | relative_url }}"
+        alt="Title slide for the SAWEC presentation at IEEE PerCom 2024"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">IEEE PerCom 2024</p>
+        <h3>SAWEC: Sensing-Assisted Wireless Edge Computing</h3>
+        <p>
+          Wireless sensing identifies relevant regions in high-resolution visual data, enabling selective edge offloading that reduces channel
+          occupation and end-to-end latency by more than 90%.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="sawec-slide-viewer"
+            data-pdf="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/SAWEC_PerCom_2024.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/4_ai_driven_mimo_edge.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.48550/arXiv.2402.10021">Paper</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/kfoysalhaque/SAWEC">Code &amp; data</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="talk-card">
+      <img
+        src="{{ '/assets/img/talks/deer_wcnc_2025.png' | relative_url }}"
+        alt="Title slide for the DEER presentation at IEEE WCNC 2025"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">IEEE WCNC 2025</p>
+        <h3>DEER: Simultaneous Multi-Modal Decentralized Energy-Efficient Covert Routing</h3>
+        <p>
+          Decentralized routing across multiple wireless modalities jointly addresses covertness, throughput, and energy efficiency in
+          heterogeneous networks.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="deer-slide-viewer"
+            data-pdf="{{ '/assets/slides/DEER_WCNC_2025.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/DEER_WCNC_2025.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/6_covert_wireless_networking.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.1109/WCNC61545.2025.10978544">Paper</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="talk-card">
+      <img
+        src="{{ '/assets/img/talks/beamsense_research_talk.png' | relative_url }}"
+        alt="Title slide for the BeamSense research presentation"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">Research Talk &middot; BeamSense</p>
+        <h3>BeamSense: Rethinking Wireless Sensing with MU-MIMO Wi-Fi Beamforming Feedback</h3>
+        <p>
+          Standard-compliant beamforming feedback enables adaptable Wi-Fi sensing on commercial devices without firmware modifications or
+          specialized sensing hardware.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="beamsense-slide-viewer"
+            data-pdf="{{ '/assets/slides/BeamSense_Research_Talk.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/BeamSense_Research_Talk.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/1_project.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.1016/j.comnet.2024.111020">Paper</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/kfoysalhaque/BeamSense">Code &amp; data</a>
+        </p>
+      </div>
+    </article>
   </div>
 
   <dialog id="beamid-slide-viewer" class="slide-dialog">
@@ -163,6 +257,48 @@ nav_order: 4
       title="Browse the BANDWEAVE presentation slides"
     ></iframe>
     <a class="slide-dialog-link" href="{{ '/assets/slides/BandWeave_INFOCOM_2026.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="sawec-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>SAWEC — IEEE PerCom 2024</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}#view=FitH"
+      title="Browse the SAWEC presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/SAWEC_PerCom_2024.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="deer-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>DEER — IEEE WCNC 2025</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/DEER_WCNC_2025.pdf' | relative_url }}#view=FitH"
+      title="Browse the DEER presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/DEER_WCNC_2025.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="beamsense-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>BeamSense — Research Talk</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/BeamSense_Research_Talk.pdf' | relative_url }}#view=FitH"
+      title="Browse the BeamSense presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/BeamSense_Research_Talk.pdf' | relative_url }}" target="_blank" rel="noopener">
       Open PDF in a new tab
     </a>
   </dialog>
