@@ -225,9 +225,44 @@ nav_order: 5
           <h4>Research Enabled</h4>
           <ul>
             <li>SOAR semantic multi-user MIMO communication</li>
-            <li>Reliable image classification and instance-segmentation offloading</li>
             <li>Task-aware wireless resource optimization</li>
             <li><a href="https://github.com/Restuccia-Group/SOAR">Open-source implementation</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <article class="testbed-card">
+    <img
+      src="{{ '/assets/img/testbeds/usrp_ota_testbed.jpg' | relative_url }}"
+      alt="Distributed USRP software-defined radios deployed for an indoor over-the-air experiment"
+      loading="lazy"
+    >
+    <div class="testbed-content">
+      <h3>USRP-Based Over-the-Air Testbed</h3>
+      <p class="testbed-meta">USRP SDRs &middot; Indoor OTA experiments &middot; Real wireless channels</p>
+      <p>
+        A configurable software-defined radio platform for prototyping and evaluating wireless systems through indoor over-the-air
+        experiments. Distributed USRPs support measurements across different transmitter and receiver locations.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>System Capabilities</h4>
+          <ul>
+            <li>Indoor over-the-air transmission and reception</li>
+            <li>Configurable SDR-based wireless experiments</li>
+            <li>Measurements across different transmitter and receiver locations</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>Evaluation of learning-based wireless systems</li>
+            <li>Physical-layer prototyping over real channels</li>
+            <li>OTA experiments supporting the PhyDNNs project</li>
           </ul>
         </section>
       </div>
