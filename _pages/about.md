@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I am **Khandaker Foysal Haque**, an incoming Postdoctoral Researcher at [IMDEA Networks Institute](https://networks.imdea.org/) in Madrid, Spain. I recently completed my Ph.D. in Electrical and Computer Engineering at Northeastern University, where I conducted research at the [Mentis Lab](https://mentis.info/) under the supervision of Prof. Francesco Restuccia.
 
-My research focuses on intelligent wireless networking, integrated sensing and communication (ISAC), AI/ML-driven wireless systems, MU-MIMO, and edge computing. I develop learning-based solutions that make next-generation wireless networks more efficient, adaptive, and capable of supporting both communication and sensing.
+My research develops **AI-driven MIMO systems** that jointly advance wireless communication, sensing, and edge computing.
 
 ## Research Vision
 
