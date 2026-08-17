@@ -9,8 +9,56 @@ nav_order: 5
 
 <div class="testbeds-datasets">
   <p class="lead">
-    Public datasets and reproducible pipelines for communication-native sensing and radio fingerprinting across Wi-Fi and mmWave MIMO systems.
+    Experimental wireless platforms and public datasets for reproducible research across Wi-Fi and mmWave MIMO systems.
   </p>
+
+  <h2>Experimental Testbeds</h2>
+
+  <article class="testbed-card">
+    <img
+      src="{{ '/assets/img/testbeds/sub6_isac_testbed.png' | relative_url }}"
+      alt="Sub-6 GHz Wi-Fi ISAC testbed with distributed CSI and BFI capture stations"
+      loading="eager"
+    >
+    <div class="testbed-content">
+      <h3>Sub-6 GHz Wi-Fi ISAC Testbed</h3>
+      <p class="testbed-meta">IEEE 802.11ac/ax &middot; CSI &amp; BFI &middot; SU/MU-MIMO &middot; Commercial Wi-Fi</p>
+      <p>
+        A configurable multi-node Wi-Fi ISAC platform for comparative collection of uncompressed Channel State Information (CSI) and
+        standards-compliant compressed Beamforming Feedback Information (BFI). Distributed capture stations support controlled sensing
+        experiments across devices, subjects, locations, orientations, and LoS/NLoS conditions.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>Measurement Stack</h4>
+          <ul>
+            <li>
+              <strong>CSI:</strong> Powered by <a href="https://github.com/seemoo-lab/nexmon_csi">Nexmon CSI</a> for per-frame channel
+              measurements from supported Broadcom Wi-Fi chipsets.
+            </li>
+            <li>
+              <strong>BFI:</strong> Powered by <a href="https://github.com/kfoysalhaque/Wi-BFI">Wi-BFI</a> for extracting beamforming feedback
+              angles and reconstructing feedback matrices from IEEE 802.11ac/ax frames.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>Single- and multi-subject Wi-Fi sensing</li>
+            <li>Cross-environment domain adaptation</li>
+            <li>CSI-versus-BFI sensing comparisons</li>
+            <li>Beamforming-feedback radio fingerprinting</li>
+            <li>BeamSense, Si-FI, and CSI-BFI-HAR</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <hr class="section-divider">
 
   <h2>Research Datasets</h2>
 
@@ -88,6 +136,55 @@ nav_order: 5
     margin-bottom: 2.5rem;
   }
 
+  .testbeds-datasets .testbed-card {
+    overflow: hidden;
+    margin-top: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    background: var(--global-card-bg-color);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .testbeds-datasets .testbed-card > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .testbeds-datasets .testbed-content {
+    padding: 1.5rem;
+  }
+
+  .testbeds-datasets .testbed-content h3 {
+    margin-top: 0;
+  }
+
+  .testbeds-datasets .testbed-meta {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+
+  .testbeds-datasets .testbed-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 1.25rem;
+  }
+
+  .testbeds-datasets .testbed-details h4 {
+    margin-bottom: 0.75rem;
+  }
+
+  .testbeds-datasets .testbed-details ul {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+
+  .testbeds-datasets .section-divider {
+    margin: 4rem 0 3rem;
+  }
+
   .testbeds-datasets .dataset-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -121,6 +218,7 @@ nav_order: 5
   }
 
   @media (max-width: 767px) {
+    .testbeds-datasets .testbed-details,
     .testbeds-datasets .dataset-grid {
       grid-template-columns: 1fr;
     }
