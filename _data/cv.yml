@@ -1,97 +1,234 @@
-- title: General Information
+- title: Profile
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Khandaker Foysal Haque
+    - name: Current Position
+      value: Incoming Postdoctoral Researcher, IMDEA Networks Institute
+    - name: Research Areas
+      value: Intelligent wireless systems, integrated sensing and communication, learning-driven MIMO networks, wireless sensing, and edge computing
+    - name: Research Platforms
+      value: Wi-Fi, mmWave, and sub-THz systems
+    - name: Publications
+      value: 30+ peer-reviewed publications in venues including IEEE INFOCOM, ACM MobiHoc, ACM MobiCom Workshops, IEEE WoWMoM, IEEE TIFS, IEEE Communications Magazine, Computer Networks, IEEE Wireless Communications Letters, and IEEE Sensors Letters
+    - name: Profiles
+      links:
+        - name: Google Scholar
+          link: https://scholar.google.com/citations?user=6Ag-9dwAAAAJ
+        - name: GitHub
+          link: https://github.com/kfoysalhaque
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/khandaker-foysal-haque-53619b81
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Engineering
+      institution: Northeastern University
+      location: Massachusetts, USA
+      year: 2021–2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Dissertation: Domain-Adaptive Learning-Driven Intelligent Wireless Systems for Sensing and Edge Computing"
+        - "Advisor: Prof. Francesco Restuccia"
+        - "Research: integrated sensing across sub-6 GHz, mmWave, and sub-THz; learning-driven MIMO; sensing-assisted edge computing; and secure covert MIMO systems"
+        - "GPA: 3.75/4.00"
+    - title: M.Sc. in Computer Engineering
+      institution: Central Michigan University
+      location: Michigan, USA
+      year: 2019–2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Concentration: Internet of Things and Machine Learning"
+        - "Thesis: LoRa Architecture for V2X Communication—An Experimental Evaluation with Vehicles on the Move"
+        - "Advisors: Prof. Ahmed Abdelgawad and Prof. Kumar Yelamarthi"
+        - "GPA: 4.00/4.00"
+    - title: B.Sc. in Electrical and Electronic Engineering
+      institution: Islamic University of Technology
+      location: Bangladesh
+      year: 2012–2016
+      description:
+        - "Concentration: Radio-frequency and wireless communication"
+        - "Thesis: Evaluation and Design of Routing Protocols for Underwater Delay-Tolerant Networks"
+        - "Advisor: Prof. Habibul Kabir"
+        - "GPA: 3.52/4.00"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Department of Electrical and Computer Engineering, Northeastern University
+      location: Massachusetts, USA
+      year: 2021–2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed standard-compliant Wi-Fi beamforming-feedback sensing, simultaneous multi-subject sensing, and domain-adaptive sensing frameworks.
+        - Designed communication-native ISAC systems at 58 GHz mmWave and 130 GHz sub-THz frequencies.
+        - Developed learning-based multi-band CFR fusion, multipath estimation, MIMO feedback analysis, and adaptive channel sounding.
+        - Designed sensing-assisted, semantic MU-MIMO, and physical-layer approaches for low-latency wireless edge computing.
+        - Developed neural radio fingerprinting with compressed MIMO feedback.
+        - Built Wi-BFI, the m3MIMO testbed, WiSEC, and a real-time MU-MIMO Wi-Fi edge-computing testbed.
+    - title: NSF INTERN Research Collaboration
+      institution: DEVCOM Army Research Laboratory
+      location: Maryland, USA
+      year: 2024–2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Advanced the design and implementation of energy-efficient, multi-modal covert communication and routing frameworks.
+    - title: Research Intern
+      institution: DEVCOM Army Research Laboratory, Network Cyber & Computational Sciences Division
+      location: Maryland, USA
+      year: 2024
       description:
+        - Developed simultaneous multi-modal covert routing mechanisms.
+        - Investigated energy efficiency and communication-overhead reduction in heterogeneous covert networks.
+    - title: Graduate Researcher
+      institution: Central Michigan University
+      location: Michigan, USA
+      year: 2019–2021
+      description:
+        - Designed V2X communication architectures using LoRa, Zigbee, and Bluetooth Low Energy.
+        - Developed cyber-physical systems for smart-city applications.
+    - title: Collaborative Research Experiences for Teachers Program
+      institution: Central Michigan University
+      location: Michigan, USA
+      year: 2020
+      description:
+        - Led the RET team in developing an onboard vehicular testbed.
+    - title: Undergraduate Researcher
+      institution: Islamic University of Technology
+      location: Bangladesh
+      year: 2016
+      description:
+        - Designed and evaluated routing protocols for underwater wireless communication.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching and Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Teaching Assistant
+      institution: College of Engineering, Central Michigan University
+      location: Michigan, USA
+      year: 2019–2021
+      description:
+        - "Courses: Digital Circuits, Communication Systems, Wireless Sensor Networks, Microelectronic Circuits, and Microprocessor Fundamentals"
+    - title: Lecturer
+      institution: European University of Bangladesh
+      location: Bangladesh
+      year: 2017–2019
+      description:
+        - "Courses: Electrical Machines I and II, Microprocessor and Embedded Systems"
+    - title: Industrial Intern
+      institution: Bangladesh Power Development Board
+      location: Bangladesh
+      year: 2015
+    - title: Industrial Intern
+      institution: Bangladesh Atomic Energy Commission
+      location: Bangladesh
+      year: 2015
+    - title: Industrial Intern
+      institution: Bangladesh Telecommunications Company Limited
+      location: Bangladesh
+      year: 2015–2016
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Selected Systems and Open-Source Tools
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Wi-BFI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Open-source tool for extracting IEEE 802.11 beamforming feedback information from commercial Wi-Fi devices.
+        - '<a href="https://github.com/kfoysalhaque/Wi-BFI">Source code</a>'
+    - title: m3MIMO
       items:
-        - Description 1.
-        - Description 2.
+        - Fully digital 8 × 8 mmWave MU-MIMO testbed for communication and sensing research.
+        - '<a href="https://github.com/kfoysalhaque/m3MIMO">Source code</a>'
+    - title: WiSEC
+      items:
+        - Modular multi-band, multi-antenna Wi-Fi testbed with 18 independently configurable network interface cards.
+    - title: BANDWEAVE
+      items:
+        - Learning-based multi-band CFR fusion for enhanced MIMO channel estimation.
+        - '<a href="https://github.com/kfoysalhaque/BandWeave">Source code</a>'
+    - title: SAWEC
+      items:
+        - Sensing-assisted wireless edge-computing framework for selective visual-data offloading.
+        - '<a href="https://github.com/kfoysalhaque/SAWEC">Source code</a>'
 
-- title: Other Interests
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming
+      value: Python, C, C++, Assembly, HTML, and SQL
+    - name: Wireless and Hardware
+      value: Software-defined radios, wireless and edge-computing testbeds, single-board computers, and the Colosseum wireless network emulator
+    - name: Software
+      value: MATLAB, Simulink, GNU Radio, NS-3, OMNeT++, Cooja, X-CTU, PSpice, Proteus, Atoll, Microwind, AutoCAD, NetLogo, Cadence, and HOMER
+
+- title: Patents and Invention Disclosures
+  type: time_table
+  contents:
+    - title: Method for Joint Multipath Parameter Estimation in MIMO Networks
+      year: 2026
+      description:
+        - Northeastern University invention disclosure INV-26164; approved April 2026 (provisional).
+    - title: "BANDWEAVE: Enhanced Channel Estimation in MIMO Networks with Multi-Band Fusion"
+      year: 2025
+      description:
+        - U.S. Provisional Patent Application 63/859,745.
+    - title: "PhyDNNs: Bringing Deep Neural Networks to the Physical Layer"
+      year: 2025
+      description:
+        - U.S. Provisional Patent Application 19/183,466 (pending).
+    - title: "SHRINK: Dynamic Data-Driven Channel Sounding for Reduced MIMO Feedback Overhead in Wi-Fi"
+      year: 2024
+      description:
+        - U.S. Provisional Patent Application 63/735,833 (pending).
+    - title: "SAWEC: Sensing-Assisted Wireless Edge Computing"
+      year: 2024
+      description:
+        - U.S. Patent Application 18/917,687 (pending).
+    - title: Method and Apparatus for Wi-Fi Sensing Through MU-MIMO Beamforming Feedback Learning
+      year: 2023
+      description:
+        - U.S. Patent Application PCT/US23/31651 (pending).
+    - title: Simultaneous Multi-Subject Activity Classification Through Wi-Fi Signals
+      year: 2023
+      description:
+        - U.S. Patent Application 18/489,570 (pending).
+
+- title: Honors, Awards, and Grants
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - Best Paper Award, IEEE INFOCOM, for BANDWEAVE.
+        - INSI/Qualcomm Travel Grant ($1,500) for presenting BANDWEAVE at IEEE INFOCOM.
+    - year: 2020
+      items:
+        - Best Paper Award, IEEE iSES, for “A LoRa-Based Reliable and Low-Power V2X Communication Architecture.”
+        - Graduate Research and Creative Endeavors Grant ($1,600) for D2D-based V2X communication with LoRa.
+        - College of Science and Engineering conference-support grants, Central Michigan University.
+
+- title: Student Mentorship
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Mentored undergraduate and M.S. students at Northeastern University on Wi-Fi sensing, MU-MIMO systems, and wireless edge computing.
+    - Supervised undergraduate researchers at Central Michigan University on IoT, V2X communication, and embedded-system projects.
+    - Mentored external undergraduate and M.S.-level students in wireless sensing and machine learning for communication systems.
+
+- title: Professional Service
+  type: nested_list
+  contents:
+    - title: Technical Program Committees
+      items:
+        - IEEE SECON 2026
+        - IEEE MASS 2025
+        - IEEE ICMI 2025
+    - title: Journal Reviewing
+      items:
+        - Computer Networks
+        - IEEE Transactions on Mobile Computing
+        - IEEE Internet of Things Journal
+        - IEEE Transactions on Cognitive Communications and Networking
+        - IEEE Wireless Communications Letters
+        - IEEE Journal of Selected Topics in Signal Processing
+        - International Journal of Computer and Telecommunications Networking
+        - MDPI Sensors
+    - title: Conference Reviewing
+      items:
+        - IEEE IWQoS, WCNC, ICC, WoWMoM, SmartComp, SECON, WONS, PIMRC, LCN, MILCOM, and GLOBECOM

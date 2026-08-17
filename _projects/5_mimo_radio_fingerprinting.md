@@ -2,7 +2,7 @@
 layout: page
 title: MIMO Feedback for Radio Fingerprinting
 description: Domain-adaptive device identification from standard-compliant Wi-Fi beamforming feedback
-img: assets/img/beamid_overview.jpg
+img: assets/img/beamid_overview.png
 importance: 1
 category: AI-Driven Wireless Security
 related_publications: false
@@ -22,7 +22,7 @@ The framework was evaluated using measurements from **15 commercial Wi-Fi networ
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/beamid_overview.jpg" title="BeamID domain-adaptive radio-fingerprinting pipeline" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/beamid_overview.png" title="BeamID domain-adaptive radio-fingerprinting pipeline" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ The study evaluated **18 nominally identical IEEE 802.11ax network interface car
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/deepcsiv2_overview.jpg" title="DeepCSIv2 passive Wi-Fi station fingerprinting" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/deepcsiv2_overview.png" title="DeepCSIv2 passive Wi-Fi station fingerprinting" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">

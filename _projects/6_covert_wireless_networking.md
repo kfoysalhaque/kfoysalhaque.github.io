@@ -2,7 +2,7 @@
 layout: page
 title: Energy-Efficient Covert Wireless Networking
 description: Decentralized multi-modal routing that jointly optimizes energy, throughput, and covertness
-img: assets/img/decor_overview.jpg
+img: assets/img/decor_overview.png
 importance: 2
 category: AI-Driven Wireless Security
 related_publications: false
@@ -25,7 +25,7 @@ The cluster-based design distributes routing decisions while reducing the signal
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/decor_overview.jpg" title="DECOR adaptive cluster-based routing workflow" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/decor_overview.png" title="DECOR adaptive cluster-based routing workflow" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ Numerical analysis shows that DEER improved energy efficiency by **23.5×** rela
 
 <div class="row">
   <div class="col-12 mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/deer_overview.jpg" title="DEER simultaneous multi-modal covert routing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/deer_overview.png" title="DEER simultaneous multi-modal covert routing" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
