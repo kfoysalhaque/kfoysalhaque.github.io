@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Incoming Postdoctoral Researcher at <a href='https://networks.imdea.org/'>IMDEA Networks Institute</a>, Madrid, Spain
 display_first_name: Khandaker Foysal

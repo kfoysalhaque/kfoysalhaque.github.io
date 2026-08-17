@@ -1,6 +1,6 @@
 ---
 layout: page
-title: demos & talks
+title: Demos & Talks
 permalink: /showcase/
 description: Demonstrations and presentations of intelligent wireless sensing, communication, and MIMO systems.
 nav: true

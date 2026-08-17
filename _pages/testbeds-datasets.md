@@ -1,6 +1,6 @@
 ---
 layout: page
-title: testbeds & datasets
+title: Testbeds & Datasets
 permalink: /testbeds-datasets/
 description: Experimental wireless platforms and public datasets supporting reproducible systems research.
 nav: true
