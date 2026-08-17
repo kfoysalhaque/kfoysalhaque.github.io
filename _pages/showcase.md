@@ -15,20 +15,20 @@ nav_order: 4
   <h2>Featured Demos</h2>
 
   <div class="demo-entry">
-    <h3>BeamSense</h3>
+    <h3>BandWeave</h3>
     <p>
-      Standard-compliant multi-person sensing using beamforming feedback from commercial Wi-Fi devices. BeamSense turns communication-native
-      feedback into robust sensing features without requiring specialized sensing hardware.
+      An intelligent MIMO channel-estimation system that fuses observations across frequency bands. BandWeave improves channel acquisition by
+      learning complementary propagation information from multiple bands.
     </p>
     <div class="demo-video">
-      {% include video.liquid path="https://www.youtube.com/embed/U-QTSxG3xpQ" title="BeamSense demonstration" %}
+      {% include video.liquid path="https://www.youtube.com/embed/COGgKKtj8SA" title="BandWeave demonstration" %}
     </div>
     <p class="demo-links">
-      <a href="{% link _projects/1_project.md %}">Related project</a>
+      <a href="{% link _projects/3_intelligent_mimo_systems.md %}">Related project</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://doi.org/10.1016/j.comnet.2024.111020">Paper</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11571725">Paper</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://github.com/kfoysalhaque/BeamSense">Code</a>
+      <a href="https://github.com/kfoysalhaque/BandWeave">Code</a>
     </p>
   </div>
 
@@ -51,20 +51,20 @@ nav_order: 4
   </div>
 
   <div class="demo-entry">
-    <h3>BandWeave</h3>
+    <h3>BeamSense</h3>
     <p>
-      An intelligent MIMO channel-estimation system that fuses observations across frequency bands. BandWeave improves channel acquisition by
-      learning complementary propagation information from multiple bands.
+      Standard-compliant multi-person sensing using beamforming feedback from commercial Wi-Fi devices. BeamSense turns communication-native
+      feedback into robust sensing features without requiring specialized sensing hardware.
     </p>
     <div class="demo-video">
-      {% include video.liquid path="https://www.youtube.com/embed/COGgKKtj8SA" title="BandWeave demonstration" %}
+      {% include video.liquid path="https://www.youtube.com/embed/U-QTSxG3xpQ" title="BeamSense demonstration" %}
     </div>
     <p class="demo-links">
-      <a href="{% link _projects/3_intelligent_mimo_systems.md %}">Related project</a>
+      <a href="{% link _projects/1_project.md %}">Related project</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://ieeexplore.ieee.org/abstract/document/11571725">Paper</a>
+      <a href="https://doi.org/10.1016/j.comnet.2024.111020">Paper</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://github.com/kfoysalhaque/BandWeave">Code</a>
+      <a href="https://github.com/kfoysalhaque/BeamSense">Code</a>
     </p>
   </div>
 </div>
