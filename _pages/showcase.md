@@ -9,7 +9,7 @@ nav_order: 4
 
 <div class="research-showcase">
   <p class="lead">
-    See my research systems in action—from standard-compliant Wi-Fi sensing to intelligent MIMO channel estimation and feedback.
+    Explore working demonstrations of my research in communication-native sensing and AI-driven MIMO systems.
   </p>
 
   <h2>Featured Demos</h2>
@@ -35,8 +35,8 @@ nav_order: 4
   <div class="demo-entry">
     <h3>Wi-BFI</h3>
     <p>
-      A Wi-Fi sensing platform that extracts and uses beamforming feedback information for human activity recognition, demonstrating how
-      protocol-compliant MIMO feedback can support practical integrated sensing and communication.
+      An open-source Wi-Fi sensing platform that extracts beamforming feedback information from commercial devices, enabling
+      protocol-compliant MIMO feedback to support a broad range of integrated sensing and communication applications.
     </p>
     <div class="demo-video">
       {% include video.liquid path="https://www.youtube.com/embed/0k7uYRCmMBw" title="Wi-BFI demonstration" %}
