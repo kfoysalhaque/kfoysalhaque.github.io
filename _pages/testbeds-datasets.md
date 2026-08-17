@@ -104,6 +104,45 @@ nav_order: 5
     </div>
   </article>
 
+  <article class="testbed-card">
+    <img
+      src="{{ '/assets/img/testbeds/m3mimo_testbed.png' | relative_url }}"
+      alt="m3MIMO fully digital mmWave MU-MIMO testbed with 8 by 8 and 4 by 4 transceivers"
+      loading="lazy"
+    >
+    <div class="testbed-content">
+      <h3>m3MIMO: Fully Digital mmWave MU-MIMO Testbed</h3>
+      <p class="testbed-meta">57–64 GHz &middot; Up to 1 GHz bandwidth &middot; 8 &times; 8 MIMO &middot; RFSoC SDRs</p>
+      <p>
+        A fully digital mmWave platform built from three custom Zynq UltraScale+ RFSoC-based software-defined radios with Pi-Radio
+        transceivers. Two radios provide eight transmit and receive streams each, while the third supports four channels, enabling flexible
+        communication and sensing experiments.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>System Capabilities</h4>
+          <ul>
+            <li>Point-to-point, SU-MIMO, and two-user MU-MIMO operation</li>
+            <li>Fully digital access to high-resolution mmWave channel measurements</li>
+            <li>OFDM-based frequency-domain multiplexing across up to 1 GHz bandwidth</li>
+            <li><a href="https://github.com/kfoysalhaque/m3MIMO">Open-source control and experimentation software</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>Communication-native mmWave sensing</li>
+            <li>MAGIC micro-gesture recognition</li>
+            <li>M3-CFR dataset collection and domain adaptation</li>
+            <li>Tracking-based beamforming and MIMO channel estimation</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
   <hr class="section-divider">
 
   <h2>Research Datasets</h2>
@@ -182,6 +221,11 @@ nav_order: 5
     margin-bottom: 2.5rem;
   }
 
+  .testbeds-datasets > h2 {
+    color: var(--global-theme-color);
+    font-weight: 700;
+  }
+
   .testbeds-datasets .testbed-card {
     overflow: hidden;
     margin-top: 1.5rem;
@@ -189,6 +233,10 @@ nav_order: 5
     border-radius: 0.35rem;
     background: var(--global-card-bg-color);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .testbeds-datasets .testbed-card + .testbed-card {
+    margin-top: 3.5rem;
   }
 
   .testbeds-datasets .testbed-card > img {
