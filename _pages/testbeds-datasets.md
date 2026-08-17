@@ -58,6 +58,52 @@ nav_order: 5
     </div>
   </article>
 
+  <article class="testbed-card">
+    <div class="testbed-gallery">
+      <img
+        src="{{ '/assets/img/testbeds/wisec_testbed.png' | relative_url }}"
+        alt="WiSEC 6 by 6 sub-6 GHz MIMO testbed supported by 18 IEEE 802.11ax network interface cards"
+        loading="lazy"
+      >
+      <img
+        src="{{ '/assets/img/testbeds/wisec_hardware.jpg' | relative_url }}"
+        alt="WiSEC hardware with reconfigurable antenna array and live channel measurements"
+        loading="lazy"
+      >
+    </div>
+    <div class="testbed-content">
+      <h3>WiSEC: Multiband Wi-Fi Sensing and Communication Testbed</h3>
+      <p class="testbed-meta">18 IEEE 802.11ax NICs &middot; 36 antennas &middot; 2.4/5/6 GHz &middot; Up to 160 MHz</p>
+      <p>
+        A modular COTS Wi-Fi platform for large-scale multi-antenna and multiband experimentation. WiSEC integrates 18 independently
+        configurable Intel NICs with two antennas each; the NICs can operate as separate devices or be combined into larger MIMO
+        configurations, including a reconfigurable 6 &times; 6 antenna array.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>System Capabilities</h4>
+          <ul>
+            <li>Independent operation across the 2.4, 5, and 6 GHz Wi-Fi bands</li>
+            <li>Reconfigurable antenna geometries and distributed MU-MIMO deployments</li>
+            <li>CSI and BFI acquisition from ongoing or triggered Wi-Fi transmissions</li>
+            <li>Simultaneous real-time collection and processing with onboard compute</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>BeamID and DeepCSIv2 radio fingerprinting</li>
+            <li>Large-scale beamforming and MU-MIMO evaluation</li>
+            <li>Multiband MIMO sensing and communication</li>
+            <li>AI-driven channel analysis and domain adaptation</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
   <hr class="section-divider">
 
   <h2>Research Datasets</h2>
@@ -152,6 +198,23 @@ nav_order: 5
     border-bottom: 1px solid var(--global-divider-color);
   }
 
+  .testbeds-datasets .testbed-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .testbeds-datasets .testbed-gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: var(--global-card-bg-color);
+  }
+
   .testbeds-datasets .testbed-content {
     padding: 1.5rem;
   }
@@ -219,6 +282,7 @@ nav_order: 5
 
   @media (max-width: 767px) {
     .testbeds-datasets .testbed-details,
+    .testbeds-datasets .testbed-gallery,
     .testbeds-datasets .dataset-grid {
       grid-template-columns: 1fr;
     }
