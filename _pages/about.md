@@ -29,4 +29,4 @@ I have published in leading venues including **IEEE TIFS, IEEE Communications Ma
 
 - [**Best Paper Award, IEEE INFOCOM 2026**](https://infocom2026.ieee-infocom.org/awards) — BANDWEAVE
 - **Best Paper Award, IEEE iSES 2020**
-- **INSI/Qualcomm Travel Grant, 2026** — IEEE INFOCOM
+- **Qualcomm Travel Grant, 2026** — IEEE INFOCOM
