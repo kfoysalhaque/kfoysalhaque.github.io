@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-research-showcase",
+          title: "research showcase",
+          description: "Interactive demonstrations of intelligent wireless sensing, communication, and MIMO systems.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/showcase/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
