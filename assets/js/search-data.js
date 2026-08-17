@@ -4,55 +4,55 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-demos-amp-talks",
-          title: "demos &amp; talks",
+          title: "Demos &amp; Talks",
           description: "Demonstrations and presentations of intelligent wireless sensing, communication, and MIMO systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/showcase/";
           },
         },{id: "nav-testbeds-amp-datasets",
-          title: "testbeds &amp; datasets",
+          title: "Testbeds &amp; Datasets",
           description: "Experimental wireless platforms and public datasets supporting reproducible systems research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/testbeds-datasets/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "dropdown-publications",
-              title: "publications",
+              title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
             },{id: "dropdown-projects",
-              title: "projects",
+              title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
