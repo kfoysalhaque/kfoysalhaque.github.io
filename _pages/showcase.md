@@ -81,14 +81,21 @@ nav_order: 4
         loading="lazy"
       >
       <div class="talk-content">
-        <p class="talk-venue">IEEE NetSoft 2026 &middot; 23 slides</p>
+        <p class="talk-venue">IEEE NetSoft 2026</p>
         <h3>BeamID: Domain-Adaptive Radio Fingerprinting with MIMO Beamforming Feedback</h3>
         <p>
           Domain-adaptive learning turns standard-compliant MIMO beamforming feedback into reliable client fingerprints across changing
           environments.
         </p>
         <p class="talk-links">
-          <a href="{{ '/assets/slides/BeamID_NetSoft_2026.pptx' | relative_url }}">Download slides</a>
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="beamid-slide-viewer"
+            data-pdf="{{ '/assets/slides/BeamID_NetSoft_2026.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/BeamID_NetSoft_2026.pptx' | relative_url }}">Download PowerPoint</a>
           &nbsp;&middot;&nbsp;
           <a href="{% link _projects/5_mimo_radio_fingerprinting.md %}">Project</a>
           &nbsp;&middot;&nbsp;
@@ -106,14 +113,21 @@ nav_order: 4
         loading="lazy"
       >
       <div class="talk-content">
-        <p class="talk-venue">IEEE INFOCOM 2026 &middot; 36 slides</p>
+        <p class="talk-venue">IEEE INFOCOM 2026</p>
         <p class="talk-award">Best Paper Award</p>
         <h3>BANDWEAVE: Enhanced Channel Estimation in MIMO Networks with Multi-Band Fusion</h3>
         <p>
           Multi-band CFR fusion uncovers complementary multipath information to improve MIMO channel estimation and communication performance.
         </p>
         <p class="talk-links">
-          <a href="{{ '/assets/slides/BandWeave_INFOCOM_2026.pptx' | relative_url }}">Download slides</a>
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="bandweave-slide-viewer"
+            data-pdf="{{ '/assets/slides/BandWeave_INFOCOM_2026.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/BandWeave_INFOCOM_2026.pptx' | relative_url }}">Download PowerPoint</a>
           &nbsp;&middot;&nbsp;
           <a href="{% link _projects/3_intelligent_mimo_systems.md %}">Project</a>
           &nbsp;&middot;&nbsp;
@@ -124,6 +138,34 @@ nav_order: 4
       </div>
     </article>
   </div>
+
+  <dialog id="beamid-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>BeamID — IEEE NetSoft 2026</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/BeamID_NetSoft_2026.pdf' | relative_url }}#view=FitH"
+      title="Browse the BeamID presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/BeamID_NetSoft_2026.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="bandweave-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>BANDWEAVE — IEEE INFOCOM 2026</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/BandWeave_INFOCOM_2026.pdf' | relative_url }}#view=FitH"
+      title="Browse the BANDWEAVE presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/BandWeave_INFOCOM_2026.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
 
 </div>
 
@@ -221,6 +263,77 @@ nav_order: 4
     font-weight: 500;
   }
 
+  .research-showcase .slide-viewer-trigger {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: var(--global-theme-color);
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .research-showcase .slide-viewer-trigger:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
+  }
+
+  .research-showcase .slide-dialog {
+    width: min(1100px, 96vw);
+    height: 92vh;
+    padding: 0;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+    color: var(--global-text-color);
+    background: var(--global-bg-color);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+  }
+
+  .research-showcase .slide-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.72);
+  }
+
+  .research-showcase .slide-dialog[open] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .research-showcase .slide-dialog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .research-showcase .slide-dialog-header form {
+    margin: 0;
+  }
+
+  .research-showcase .slide-dialog-header button {
+    padding: 0 0.35rem;
+    border: 0;
+    color: var(--global-text-color);
+    background: transparent;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .research-showcase .slide-dialog iframe {
+    flex: 1;
+    width: 100%;
+    border: 0;
+  }
+
+  .research-showcase .slide-dialog-link {
+    padding: 0.65rem 1rem;
+    border-top: 1px solid var(--global-divider-color);
+    text-align: right;
+  }
+
   @media (max-width: 767px) {
     .research-showcase .talk-grid {
       grid-template-columns: 1fr;
@@ -228,3 +341,26 @@ nav_order: 4
   }
 
 </style>
+
+<script>
+  document.querySelectorAll('.slide-viewer-trigger').forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      const dialog = document.getElementById(trigger.dataset.dialog);
+      const frame = dialog?.querySelector('iframe');
+
+      if (!dialog || typeof dialog.showModal !== 'function') {
+        window.open(trigger.dataset.pdf, '_blank', 'noopener');
+        return;
+      }
+
+      if (frame && !frame.hasAttribute('src')) frame.src = frame.dataset.src;
+      dialog.showModal();
+    });
+  });
+
+  document.querySelectorAll('.slide-dialog').forEach((dialog) => {
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  });
+</script>
