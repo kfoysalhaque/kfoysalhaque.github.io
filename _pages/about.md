@@ -3,6 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: Incoming Postdoctoral Researcher at <a href='https://networks.imdea.org/'>IMDEA Networks Institute</a>, Madrid, Spain
+display_first_name: Khandaker Foysal
+display_last_name: Haque
+credentials: Ph.D.
 
 profile:
   align: right
