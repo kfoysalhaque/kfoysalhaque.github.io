@@ -164,7 +164,7 @@ nav_order: 5
       >
     </div>
     <div class="testbed-content">
-      <h3>SAWEC: Sensing-Assisted Edge Computing Testbed</h3>
+      <h3>Sensing-Assisted Edge Computing Testbed</h3>
       <p class="testbed-meta">Wi-Fi 6 sensing &middot; 160 MHz &middot; 10K 360&deg; video &middot; Edge AI</p>
       <p>
         A joint wireless-sensing and visual edge-computing platform that uses Wi-Fi measurements to localize and track environmental changes.
@@ -188,8 +188,46 @@ nav_order: 5
           <ul>
             <li>SAWEC selective visual-data offloading</li>
             <li>Low-latency instance segmentation and object detection at the edge</li>
-            <li>More than 90% reduction in channel occupation and end-to-end latency</li>
             <li><a href="https://github.com/kfoysalhaque/SAWEC">Open-source implementation and datasets</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <article class="testbed-card">
+    <img
+      src="{{ '/assets/img/testbeds/soar_testbed.jpg' | relative_url }}"
+      alt="SOAR outdoor UAV semantic offloading testbed with distributed wireless nodes and edge-computing devices"
+      loading="lazy"
+    >
+    <div class="testbed-content">
+      <h3>SOAR: Semantic-Aware UAV Edge Offloading Testbed</h3>
+      <p class="testbed-meta">UAV experimentation &middot; Multi-user MIMO &middot; Semantic offloading &middot; Edge AI</p>
+      <p>
+        An outdoor aerial edge-computing platform for evaluating task-oriented wireless offloading under changing propagation conditions.
+        SOAR couples application context with multi-user MIMO control so that communication resources can be adapted to the reliability needs
+        of vision tasks rather than fixed network-level targets.
+      </p>
+
+      <div class="testbed-details">
+        <section>
+          <h4>System Capabilities</h4>
+          <ul>
+            <li>Outdoor UAV operation with distributed wireless and edge-computing nodes</li>
+            <li>Line-of-sight and non-line-of-sight propagation experiments</li>
+            <li>Adaptive antenna, spatial-stream, and bandwidth configuration</li>
+            <li>Context-aware control using distributional deep reinforcement learning</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Research Enabled</h4>
+          <ul>
+            <li>SOAR semantic multi-user MIMO communication</li>
+            <li>Reliable image classification and instance-segmentation offloading</li>
+            <li>Task-aware wireless resource optimization</li>
+            <li><a href="https://github.com/Restuccia-Group/SOAR">Open-source implementation</a></li>
           </ul>
         </section>
       </div>
