@@ -266,6 +266,38 @@ nav_order: 4
 
     <article class="talk-card">
       <img
+        src="{{ '/assets/img/talks/simwisense_kfh.png' | relative_url }}"
+        alt="Title slide for the SiMWiSense presentation at IEEE WoWMoM 2023"
+        loading="lazy"
+      >
+      <div class="talk-content">
+        <p class="talk-venue">IEEE WoWMoM 2023</p>
+        <h3>SiMWiSense: Simultaneous Multi-Subject Activity Classification Through Wi-Fi Signals</h3>
+        <p>
+          Distributed Wi-Fi channel measurements and few-shot learning enable simultaneous activity recognition across multiple subjects and
+          changing environments.
+        </p>
+        <p class="talk-links">
+          <button
+            type="button"
+            class="slide-viewer-trigger"
+            data-dialog="simwisense-slide-viewer"
+            data-pdf="{{ '/assets/slides/SiMWiSense_KFH.pdf' | relative_url }}"
+          >Browse slides</button>
+          &nbsp;&middot;&nbsp;
+          <a href="{{ '/assets/slides/SiMWiSense_KFH.pptx' | relative_url }}">Download PowerPoint</a>
+          &nbsp;&middot;&nbsp;
+          <a href="{% link _projects/1_project.md %}">Project</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://doi.org/10.1109/WoWMoM57956.2023.00019">Paper</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/kfoysalhaque/SiMWiSense">Code &amp; data</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="talk-card">
+      <img
         src="{{ '/assets/img/talks/wi_bfi_wintech_2023.png' | relative_url }}"
         alt="Title slide for the Wi-BFI presentation at ACM WiNTECH 2023"
         loading="lazy"
@@ -391,6 +423,20 @@ nav_order: 4
       title="Browse the MAGIC presentation slides"
     ></iframe>
     <a class="slide-dialog-link" href="{{ '/assets/slides/MAGIC.pdf' | relative_url }}" target="_blank" rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </dialog>
+
+  <dialog id="simwisense-slide-viewer" class="slide-dialog">
+    <div class="slide-dialog-header">
+      <strong>SiMWiSense — IEEE WoWMoM 2023</strong>
+      <form method="dialog"><button aria-label="Close slide viewer">&times;</button></form>
+    </div>
+    <iframe
+      data-src="{{ '/assets/slides/SiMWiSense_KFH.pdf' | relative_url }}#view=FitH"
+      title="Browse the SiMWiSense presentation slides"
+    ></iframe>
+    <a class="slide-dialog-link" href="{{ '/assets/slides/SiMWiSense_KFH.pdf' | relative_url }}" target="_blank" rel="noopener">
       Open PDF in a new tab
     </a>
   </dialog>
