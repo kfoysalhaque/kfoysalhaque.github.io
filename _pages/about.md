@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming Postdoctoral Researcher at <a href='https://networks.imdea.org/'>IMDEA Networks Institute</a>, Madrid, Spain
+subtitle: Intelligent Wireless Systems &middot; Integrated Sensing and Communication &middot; AI-Driven MIMO
 display_first_name: Khandaker Foysal
 display_last_name: Haque
 credentials: Ph.D.
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am **Khandaker Foysal Haque**, an incoming Postdoctoral Researcher at [IMDEA Networks Institute](https://networks.imdea.org/) in Madrid, Spain. I recently completed my Ph.D. in Electrical and Computer Engineering at Northeastern University, where I conducted research at the [Mentis Lab](https://mentis.info/) under the supervision of Prof. Francesco Restuccia.
+I am **Khandaker Foysal Haque**, a researcher in intelligent wireless systems. I recently completed my Ph.D. in Electrical and Computer Engineering at Northeastern University, where I conducted research at the [Mentis Lab](https://mentis.info/) under the supervision of Prof. Francesco Restuccia.
 
 My research develops **Intelligent MIMO systems** that jointly advance wireless communication, sensing, and edge computing.
 
