@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am **Khandaker Foysal Haque**, a researcher in intelligent wireless systems. I recently completed my Ph.D. in Electrical and Computer Engineering at Northeastern University, where I conducted research at the [Mentis Lab](https://mentis.info/) under the supervision of Prof. Francesco Restuccia.
+I am a [Post-Doctoral Research Scientist at IMDEA Networks](https://networks.imdea.org/team/imdea-networks-team/people/khandaker-foysal-haque/), where my research focuses on **integrated sensing and communication (ISAC)** and **intelligent wireless systems**. I received my Ph.D. in Computer Engineering from Northeastern University in June 2026, where I conducted my doctoral research at the [Mentis Lab](https://mentis.info/) under the supervision of Prof. Francesco Restuccia.
 
 My research develops **Intelligent MIMO systems** that jointly advance wireless communication, sensing, and edge computing.
 
