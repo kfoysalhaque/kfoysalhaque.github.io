@@ -22,6 +22,9 @@ profile:
       <a href="https://www.cmich.edu/" title="Central Michigan University" target="_blank" rel="noopener noreferrer">
         <img src="/assets/img/logos/central-michigan.png" alt="Central Michigan University">
       </a>
+      <a href="https://www.iutoic-dhaka.edu/" title="Islamic University of Technology" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/logos/islamic-university-of-technology.png" alt="Islamic University of Technology">
+      </a>
     </div>
 
 news: true # includes a list of news items
