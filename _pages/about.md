@@ -11,7 +11,18 @@ profile:
   align: right
   image: Foysal2.png
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
+    <div class="affiliations">
+      <a href="https://networks.imdea.org/" title="IMDEA Networks Institute" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/logos/imdea-networks.png" alt="IMDEA Networks Institute">
+      </a>
+      <a href="https://www.northeastern.edu/" title="Northeastern University" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/logos/northeastern.png" alt="Northeastern University">
+      </a>
+      <a href="https://www.cmich.edu/" title="Central Michigan University" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/logos/central-michigan.png" alt="Central Michigan University">
+      </a>
+    </div>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
