@@ -15,11 +15,7 @@ nav_order: 5
   <h2>Experimental Testbeds</h2>
 
   <article class="testbed-card">
-    <img
-      src="{{ '/assets/img/testbeds/sub6_isac_testbed.png' | relative_url }}"
-      alt="Sub-6 GHz Wi-Fi ISAC testbed with distributed CSI and BFI capture stations"
-      loading="eager"
-    >
+    {% include figure.liquid path="assets/img/testbeds/sub6_isac_testbed.png" alt="Sub-6 GHz Wi-Fi ISAC testbed with distributed CSI and BFI capture stations" loading="eager" sizes="(min-width: 930px) 900px, 95vw" %}
     <div class="testbed-content">
       <h3>Sub-6 GHz Wi-Fi ISAC Testbed</h3>
       <p class="testbed-meta">IEEE 802.11ac/ax &middot; CSI &amp; BFI &middot; SU/MU-MIMO &middot; Commercial Wi-Fi</p>
@@ -60,16 +56,8 @@ nav_order: 5
 
   <article class="testbed-card">
     <div class="testbed-gallery">
-      <img
-        src="{{ '/assets/img/testbeds/wisec_testbed.png' | relative_url }}"
-        alt="WiSEC 6 by 6 sub-6 GHz MIMO testbed supported by 18 IEEE 802.11ax network interface cards"
-        loading="lazy"
-      >
-      <img
-        src="{{ '/assets/img/testbeds/wisec_hardware.jpg' | relative_url }}"
-        alt="WiSEC hardware with reconfigurable antenna array and live channel measurements"
-        loading="lazy"
-      >
+      {% include figure.liquid path="assets/img/testbeds/wisec_testbed.png" alt="WiSEC 6 by 6 sub-6 GHz MIMO testbed supported by 18 IEEE 802.11ax network interface cards" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
+      {% include figure.liquid path="assets/img/testbeds/wisec_hardware.jpg" alt="WiSEC hardware with reconfigurable antenna array and live channel measurements" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
     </div>
     <div class="testbed-content">
       <h3>WiSEC: Multiband Wi-Fi Sensing and Communication Testbed</h3>
@@ -106,16 +94,8 @@ nav_order: 5
 
   <article class="testbed-card">
     <div class="testbed-gallery">
-      <img
-        src="{{ '/assets/img/testbeds/m3mimo_testbed.png' | relative_url }}"
-        alt="m3MIMO fully digital mmWave MU-MIMO testbed with 8 by 8 and 4 by 4 transceivers"
-        loading="lazy"
-      >
-      <img
-        src="{{ '/assets/img/testbeds/m3mimo_anechoic.jpg' | relative_url }}"
-        alt="m3MIMO transceivers deployed in an anechoic chamber"
-        loading="lazy"
-      >
+      {% include figure.liquid path="assets/img/testbeds/m3mimo_testbed.png" alt="m3MIMO fully digital mmWave MU-MIMO testbed with 8 by 8 and 4 by 4 transceivers" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
+      {% include figure.liquid path="assets/img/testbeds/m3mimo_anechoic.jpg" alt="m3MIMO transceivers deployed in an anechoic chamber" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
     </div>
     <div class="testbed-content">
       <h3>m3MIMO: Fully Digital mmWave MU-MIMO Testbed</h3>
@@ -152,16 +132,8 @@ nav_order: 5
 
   <article class="testbed-card">
     <div class="testbed-gallery">
-      <img
-        src="{{ '/assets/img/testbeds/sawec_anechoic.jpg' | relative_url }}"
-        alt="SAWEC sensing and visual edge-computing testbed deployed in an anechoic chamber"
-        loading="lazy"
-      >
-      <img
-        src="{{ '/assets/img/testbeds/sawec_entrance_hall.jpg' | relative_url }}"
-        alt="SAWEC Wi-Fi sensing and 360-degree camera setup deployed in an entrance hall"
-        loading="lazy"
-      >
+      {% include figure.liquid path="assets/img/testbeds/sawec_anechoic.jpg" alt="SAWEC sensing and visual edge-computing testbed deployed in an anechoic chamber" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
+      {% include figure.liquid path="assets/img/testbeds/sawec_entrance_hall.jpg" alt="SAWEC Wi-Fi sensing and 360-degree camera setup deployed in an entrance hall" loading="lazy" sizes="(min-width: 930px) 450px, (min-width: 768px) 48vw, 95vw" %}
     </div>
     <div class="testbed-content">
       <h3>Sensing-Assisted Edge Computing Testbed</h3>
@@ -196,11 +168,7 @@ nav_order: 5
   </article>
 
   <article class="testbed-card">
-    <img
-      src="{{ '/assets/img/testbeds/soar_testbed.jpg' | relative_url }}"
-      alt="SOAR outdoor UAV semantic offloading testbed with distributed wireless nodes and edge-computing devices"
-      loading="lazy"
-    >
+    {% include figure.liquid path="assets/img/testbeds/soar_testbed.jpg" alt="SOAR outdoor UAV semantic offloading testbed with distributed wireless nodes and edge-computing devices" loading="lazy" sizes="(min-width: 930px) 900px, 95vw" %}
     <div class="testbed-content">
       <h3>SOAR: Semantic-Aware UAV Edge Offloading Testbed</h3>
       <p class="testbed-meta">UAV experimentation &middot; Multi-user MIMO &middot; Semantic offloading &middot; Edge AI</p>
@@ -234,11 +202,7 @@ nav_order: 5
   </article>
 
   <article class="testbed-card">
-    <img
-      src="{{ '/assets/img/testbeds/usrp_ota_testbed.jpg' | relative_url }}"
-      alt="Distributed USRP software-defined radios deployed for an indoor over-the-air experiment"
-      loading="lazy"
-    >
+    {% include figure.liquid path="assets/img/testbeds/usrp_ota_testbed.jpg" alt="Distributed USRP software-defined radios deployed for an indoor over-the-air experiment" loading="lazy" sizes="(min-width: 930px) 900px, 95vw" %}
     <div class="testbed-content">
       <h3>USRP-Based Over-the-Air Testbed</h3>
       <p class="testbed-meta">USRP SDRs &middot; Indoor OTA experiments &middot; Real wireless channels</p>
@@ -365,11 +329,25 @@ nav_order: 5
     margin-top: 3.5rem;
   }
 
-  .testbeds-datasets .testbed-card > img {
+  /* Images are rendered by figure.liquid as <figure><picture><img>, which
+     serves resized WebP versions instead of the multi-megabyte originals. */
+  .testbeds-datasets .testbed-card figure {
+    margin: 0;
+  }
+
+  .testbeds-datasets .testbed-card picture {
+    display: block;
+    height: 100%;
+  }
+
+  .testbeds-datasets .testbed-card > figure {
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .testbeds-datasets .testbed-card > figure img {
     display: block;
     width: 100%;
     height: auto;
-    border-bottom: 1px solid var(--global-divider-color);
   }
 
   .testbeds-datasets .testbed-gallery {
@@ -378,6 +356,10 @@ nav_order: 5
     gap: 1px;
     background: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .testbeds-datasets .testbed-gallery figure {
+    height: 100%;
   }
 
   .testbeds-datasets .testbed-gallery img {
