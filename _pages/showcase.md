@@ -8,10 +8,6 @@ nav_order: 4
 ---
 
 <div class="research-showcase">
-  <p class="lead">
-    Explore working demonstrations of my research in communication-native sensing and AI-driven MIMO systems.
-  </p>
-
   <h2>Featured Demos</h2>
 
   <div class="demo-entry">
@@ -444,10 +440,6 @@ nav_order: 4
 </div>
 
 <style>
-  .research-showcase .lead {
-    margin-bottom: 2.5rem;
-  }
-
   .research-showcase .demo-entry {
     margin: 2rem 0 3.5rem;
   }
@@ -525,7 +517,7 @@ nav_order: 4
     margin: 0.6rem 0 0;
     padding: 0.15rem 0.55rem;
     border-radius: 1rem;
-    color: #fff;
+    color: var(--global-hover-text-color);
     background: var(--global-theme-color);
     font-size: 0.82rem;
     font-weight: 600;

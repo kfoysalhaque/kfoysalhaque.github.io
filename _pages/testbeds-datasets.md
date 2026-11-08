@@ -8,10 +8,6 @@ nav_order: 5
 ---
 
 <div class="testbeds-datasets">
-  <p class="lead">
-    Experimental wireless platforms and public datasets for reproducible research across Wi-Fi and mmWave MIMO systems.
-  </p>
-
   <h2>Experimental Testbeds</h2>
 
   <article class="testbed-card">
@@ -307,15 +303,6 @@ nav_order: 5
 </div>
 
 <style>
-  .testbeds-datasets .lead {
-    margin-bottom: 2.5rem;
-  }
-
-  .testbeds-datasets > h2 {
-    color: var(--global-theme-color);
-    font-weight: 700;
-  }
-
   .testbeds-datasets .testbed-card {
     overflow: hidden;
     margin-top: 1.5rem;

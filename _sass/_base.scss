@@ -250,6 +250,35 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Phones: a smaller centered photo and a single row of logos, so the bio
+// starts on the first screen instead of below a full-height photo.
+@media (max-width: 575.98px) {
+  .profile.float-right,
+  .profile.float-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .profile {
+    margin-bottom: 1rem;
+
+    figure {
+      max-width: 180px;
+      margin: 0 auto 0.5rem;
+    }
+
+    .affiliations {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.5rem;
+      padding: 0.5rem;
+
+      a {
+        height: 56px;
+      }
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -705,6 +734,23 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+
+    // Same-shaped image area on every card, so cards in a row line up even
+    // though the overview figures have very different aspect ratios. The
+    // white letterbox matches the figures' own white backgrounds.
+    .card-img-top {
+      aspect-ratio: 16 / 10;
+      object-fit: contain;
+      padding: 0.5rem;
+      background-color: #fff;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 1.35;
+      margin-bottom: 0.5rem;
+    }
   }
 
   .col {
@@ -718,12 +764,26 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    position: relative;
+    color: var(--global-text-color);
+    font-size: 1.5rem;
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+
+    // Short accent bar under the start of each category heading.
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 3rem;
+      height: 2px;
+      background-color: var(--global-theme-color);
+    }
   }
 }
 
@@ -772,11 +832,14 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
+          // !important beats MDB's `.badge { color: #fff !important }`, which
+          // would leave white text on the light-teal dark-mode badge.
+          color: var(--global-hover-text-color) !important;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
 
           a {
-            color: white;
+            color: var(--global-hover-text-color);
 
             &:hover {
               text-decoration: none;
